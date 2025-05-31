@@ -3,7 +3,7 @@
 <template>
     <header class="w-full px-auto border-2 py-20">
         <div class="w-6/10 mx-auto">
-        <div class="flex items-center justify-center">
+        <div class="flex items-center justify-center m-10">
             <img class="w-[150px] h-[150px]" src="/logo.png" alt="RUPP logo" />
             <div>
             <p class="text-5xl moul-regular font-bold">
