@@ -46,5 +46,50 @@ To follow along or implement cryptographic algorithms:
 
 ---
 
-## 📁 Repository Structure (if code is included)
+## 📁 Repository Structure 
+  number-theory-cryptography-vue/
+  ├── public/
+  │   └── index.html
+  ├── src/
+  │   ├── assets/
+  │   │   └── logo.png
+  │   ├── components/
+  │   │   ├── ShiftCipher.vue
+  │   │   ├── RSADemo.vue
+  │   │   ├── KeyExchange.vue
+  │   │   └── DigitalSignature.vue
+  │   ├── views/
+  │   │   ├── HomeView.vue
+  │   │   ├── ClassicalView.vue
+  │   │   ├── PublicKeyView.vue
+  │   │   └── ProtocolsView.vue
+  │   ├── router/
+  │   │   └── index.js
+  │   ├── App.vue
+  │   └── main.js
+  ├── .gitignore
+  ├── README.md
+  ├── package.json
+  ├── vite.config.js
+  └── LICENSE
+
+
+---
+
+## 🧠 Author
+
+**Rathanak Phan**  
+Student, Royal University of Phnom Penh  
+Major: Information Technology Engineering  
+📧 Email: _[rathanak.dev.kh@gmail.com]_  
+🌐 GitHub: [@Rathamak-Phan]([https://github.com/your-username](https://github.com/Rathanak-Phan)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+
 
