@@ -47,31 +47,7 @@ To follow along or implement cryptographic algorithms:
 ---
 
 ## 📁 Repository Structure 
-  number-theory-cryptography-vue/
-  ├── public/
-  │   └── index.html
-  ├── src/
-  │   ├── assets/
-  │   │   └── logo.png
-  │   ├── components/
-  │   │   ├── ShiftCipher.vue
-  │   │   ├── RSADemo.vue
-  │   │   ├── KeyExchange.vue
-  │   │   └── DigitalSignature.vue
-  │   ├── views/
-  │   │   ├── HomeView.vue
-  │   │   ├── ClassicalView.vue
-  │   │   ├── PublicKeyView.vue
-  │   │   └── ProtocolsView.vue
-  │   ├── router/
-  │   │   └── index.js
-  │   ├── App.vue
-  │   └── main.js
-  ├── .gitignore
-  ├── README.md
-  ├── package.json
-  ├── vite.config.js
-  └── LICENSE
+  <pre lang="markdown"> ## 📁 Repository Structure ``` number-theory-cryptography-vue/ ├── public/ │ └── index.html ├── src/ │ ├── assets/ │ │ └── logo.png │ ├── components/ │ │ ├── ShiftCipher.vue │ │ ├── RSADemo.vue │ │ ├── KeyExchange.vue │ │ └── DigitalSignature.vue │ ├── views/ │ │ ├── HomeView.vue │ │ ├── ClassicalView.vue │ │ ├── PublicKeyView.vue │ │ └── ProtocolsView.vue │ ├── router/ │ │ └── index.js │ ├── App.vue │ └── main.js ├── .gitignore ├── README.md ├── package.json ├── vite.config.js └── LICENSE ``` </pre>
 
 
 
