@@ -1,7 +1,50 @@
-# Cryptography
+# 🔐 Number Theory and Cryptography
 
-## Introduction
+This project/chapter explores how number theory forms the foundation of classical and modern cryptography. It covers private key and public key encryption, cryptographic protocols, and advanced techniques like homomorphic encryption. The concepts presented here are essential for understanding how secure communication, authentication, and data privacy are achieved in the digital world.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+---
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 📚 Topics Covered
+
+### 🏛️ Classical Cryptography
+- **Shift Ciphers**: Replace each letter with another letter a fixed number of positions away in the alphabet.
+- **Private Key Encryption**: Same key is used for both encryption and decryption.
+- **Cryptanalysis**: Methods used to break classical ciphers without knowing the key.
+
+### 🔑 Public Key Cryptography
+- **RSA Cryptosystem**:
+  - Based on number theory and modular arithmetic.
+  - Uses a public key (modulus and exponent) to encrypt.
+  - Requires knowledge of large prime factors to decrypt.
+- **Asymmetric Encryption**: Encryption and decryption keys are different.
+
+### 🔄 Cryptographic Protocols
+- **Key Exchange**: Allow two parties to share a secret key securely.
+- **Digital Signatures**: Verify that a message comes from the stated sender and has not been altered.
+
+### ☁️ Homomorphic Encryption
+- **Encrypted Computation**: Run programs on encrypted data without decrypting it.
+- **Applications**: Secure cloud computing, privacy-preserving data processing.
+
+---
+
+## 🔢 Why Number Theory?
+
+Number theory provides:
+- **Modular arithmetic** for secure transformations.
+- **Prime numbers** as the basis for trapdoor functions.
+- **Mathematical hardness** that ensures cryptographic security.
+
+---
+
+## 🛠️ Prerequisites
+
+To follow along or implement cryptographic algorithms:
+- Basic understanding of **modular arithmetic**.
+- Familiarity with **prime numbers**, **gcd**, and **Euler’s theorem**.
+- Programming knowledge in Python, C++, or another language (optional for implementation).
+
+---
+
+## 📁 Repository Structure (if code is included)
+
