@@ -62,6 +62,117 @@
   </header>
 
   <main class="w-full px-auto border-2 mt-7 p-10">
-    <h2>Til</h2>
+    <h1 class="text-4xl font-bold text-gray-800 flex items-start my-5">
+      Number Theory & Cryptography — (Interactive Demo Guide)
+    </h1>
+    <hr />
+
+    <!-- description about number theory and crytography -->
+    <div>
+      <p class="text-2xl font-bold text-gray-800 text-center my-5">
+        Welcome to the Number Theory and Cryptography Demo!
+      </p>
+      <p class="text-lg text-gray-800 text-start my-5">
+        This website lets you explore and test important cryptographic concepts
+        with interactive tools. Whether you're a beginner or just curious about
+        how cryptography works, you can try algorithms yourself, see the
+        calculations behind the scenes, and understand the magic of secure
+        communication.
+      </p>
+
+      <!-- I.Classical Cryptography -->
+      <div>
+        <h3 class="text-2xl font-bold">
+          I. Classical Cryptography (Caesar Cipher)
+        </h3>
+        <div class="ml-10">
+          <p class="text-lg text-gray-800 text-start my-5">
+            In this section, you can explore the Caesar cipher, a simple and
+            ancient encryption technique. The Caesar cipher shifts each letter
+            in a message by a fixed number of positions down the alphabet. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Quas deleniti
+            maiores tempore aperiam. Accusantium itaque quos, sapiente ab aut,
+            magnam aliquid ea ipsum officia repudiandae laudantium officiis,
+            asperiores vero eligendi incidunt! Est sequi molestias voluptate
+            explicabo provident nulla, odit deserunt dolorum hic pariatur iusto
+            eos ea saepe eaque quas maiores perspiciatis earum dolor at corporis
+            praesentium aspernatur placeat aperiam fuga? Accusantium aut, veniam
+            laboriosam obcaecati nihil maiores dicta in harum voluptates qui
+            nostrum minus modi, reiciendis officiis eos. Libero quae amet dicta
+            repudiandae provident cupiditate a est minima? Ipsam, corrupti optio
+            perspiciatis ab itaque asperiores modi. Dolorem ad expedita
+            delectus!
+          </p>
+          <!-- Caesar Cipher Demo -->
+          <div class="ml-10">
+            <h4 class="text-xl font-bold">Caesar Cipher Demo</h4>
+            <div class="flex items-center space-x-4">
+              <input
+                type="text"
+                v-model="message"
+                placeholder="Enter a message"
+                class="border border-gray-300 px-4 py-2 rounded"
+              />
+              <input
+                type="number"
+                v-model="shift"
+                placeholder="Enter a shift value"
+                class="border border-gray-300 px-4 py-2 rounded"
+              />
+              <button
+                @click="encryptMessage"
+                class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+              >
+                Encrypt
+              </button>
+              <button
+                @click="decryptMessage"
+                class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition"
+              >
+                Decrypt
+              </button>
+            </div>
+            <p class="text-lg text-gray-800 text-start my-5">
+              Encrypted Message: {{ encryptedMessage }}
+            </p>
+            <p class="text-lg text-gray-800 text-start my-5">
+              Decrypted Message: {{ decryptedMessage }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- II.RSA Algorithm -->
+      <div>
+        <h3 class="text-2xl font-bold">II. RSA Algorithm (RSA Encryption)</h3>
+      </div>
+
+      <!-- III.Digital Signature -->
+      <div>
+        <h3 class="text-2xl font-bold">
+          III. Digital Signature (Digital Signature)
+        </h3>
+      </div>
+
+      <!-- IV. Elliptic Curve Cryptography -->
+      <div>
+        <h3 class="text-2xl font-bold">
+          IV. Elliptic Curve Cryptography (Elliptic Curve)
+        </h3>
+      </div>
+
+      <!-- V. Hash Functions -->
+    </div>
   </main>
+
+  <footer class="bg-gray-800 text-white py-4 text-center">
+    <div class="container mx-auto px-4">
+      <p class="text-sm">&copy; 2025 Rathanak Phan. All rights reserved.</p>
+      <div class="mt-2 flex justify-center space-x-4">
+        <a href="#" class="hover:text-gray-400 transition">Privacy Policy</a>
+        <a href="#" class="hover:text-gray-400 transition">Terms of Service</a>
+        <a href="#" class="hover:text-gray-400 transition">Contact</a>
+      </div>
+    </div>
+  </footer>
 </template>
