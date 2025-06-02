@@ -87,7 +87,7 @@ number-theory-cryptography-vue/
 Student, Royal University of Phnom Penh  
 Major: Information Technology Engineering  
 📧 Email: _[rathanak.dev.kh@gmail.com]_  
-🌐 GitHub: [@Rathamak-Phan]([https://github.com/your-username](https://github.com/Rathanak-Phan)
+🌐 GitHub: [@Rathamak-Phan]([(https://github.com/Rathanak-Phan)]
 
 ---
 
