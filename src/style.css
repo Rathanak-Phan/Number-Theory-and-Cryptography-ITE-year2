@@ -1,22 +1,22 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Moul&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import "tailwindcss";
 
 body {
   margin: 0;
-  padding: 20px;
+  /* padding: 10px; */
   background-color: antiquewhite;
 }
 
-.moul-regular {
+.khmer-moul {
   font-family: "Moul", serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.playwrite {
-  font-family: "Playwrite HU", cursive;
+.eb-garamond {
+  font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: 700;
   font-style: normal;
 }
