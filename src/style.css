@@ -3,11 +3,6 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
-body {
-  margin: 0;
-  /* padding: 10px; */
-  background-color: antiquewhite;
-}
 
 .khmer-moul {
   font-family: "Moul", serif;
