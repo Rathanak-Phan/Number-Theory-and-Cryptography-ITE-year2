@@ -3,7 +3,7 @@
     class="min-h-screen bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300 ease-in-out"
   >
     <!-- Header Section -->
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center">
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center duration-300 ease-in-out">
       <div
         class="relative w-full border-2 border-gray-300 dark:border-gray-700 rounded-2xl overflow-hidden py-8 sm:py-12 md:py-16 lg:py-20 shadow-lg"
       >
@@ -57,7 +57,7 @@
 
     <!-- Welcome Section -->
     <section
-      class="text-center py-16 px-4 sm:px-6 md:px-20 bg-gray-50 dark:bg-gray-800"
+      class="text-center py-16 px-4 sm:px-6 md:px-20 bg-gray-50 dark:bg-gray-800 duration-300 ease-in-out"
     >
       <h1
         class="text-4xl sm:text-5xl md:text-6xl font-bold text-blue-700 dark:text-blue-400 mb-6"
@@ -78,7 +78,7 @@
     </section>
 
     <!-- About Number Theory -->
-    <section class="py-16 px-4 sm:px-6 md:px-20 bg-white dark:bg-gray-900">
+    <section class="py-16 px-4 sm:px-6 md:px-20 bg-white dark:bg-gray-900 duration-300 ease-in-out">
       <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div>
           <h2
@@ -111,7 +111,7 @@
     </section>
 
     <!-- About Cryptography -->
-    <section class="py-16 px-4 sm:px-6 md:px-20 bg-gray-50 dark:bg-gray-800">
+    <section class="py-16 px-4 sm:px-6 md:px-20 bg-gray-50 dark:bg-gray-800 duration-300 ease-in-out">
       <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <img
           src="/src/assets/cryptography.png"
@@ -143,7 +143,7 @@
 
     <!-- Call to Action -->
     <section
-      class="text-center py-16 px-4 sm:px-6 md:px-20 bg-white dark:bg-gray-900"
+      class="text-center py-16 px-4 sm:px-6 md:px-20 bg-white dark:bg-gray-900 duration-300 ease-in-out"
     >
       <h2
         class="text-3xl sm:text-4xl font-bold text-blue-700 dark:text-blue-400 mb-6"
