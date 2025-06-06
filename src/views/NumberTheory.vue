@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300 ease-in-out">
-    <div class="bg-[#bdbdbd] text-gray-900 dark:bg-[#494949] dark:text-gray-100 min-h-screen max-w-6/10 mx-auto p-8">
+    <div class="bg-[#bdbdbd] text-gray-900 dark:bg-[#353535] dark:text-gray-100 min-h-screen max-w-6/10 mx-auto p-8">
       <h1 class="text-4xl text-center font-bold mb-6 text-blue-600 dark:text-blue-400">Learn Number Theory</h1>
 
       <!-- Prime Numbers -->
