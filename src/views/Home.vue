@@ -2,92 +2,187 @@
   <main
     class="min-h-screen bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300 ease-in-out"
   >
-    <!-- label Section -->
-    <div class="max-w-7xl mx-auto px-4 py-12 text-center">
+    <!-- Header Section -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center">
       <div
-        class="relative w-full border-2 border-gray-300 dark:border-gray-700 rounded-xl overflow-hidden py-6 sm:py-8 md:py-12 lg:py-16 shadow-md"
+        class="relative w-full border-2 border-gray-300 dark:border-gray-700 rounded-2xl overflow-hidden py-8 sm:py-12 md:py-16 lg:py-20 shadow-lg"
       >
         <!-- Background image layer -->
         <div
-          class="absolute inset-0 bg-[url('https://th.bing.com/th/id/R.77377b033da7e65208486a42e99b1915?rik=8JP1GrPiBVYTZg&riu=http%3a%2f%2f3.bp.blogspot.com%2f_UkrggvWyhFY%2fRpradWn9KWI%2fAAAAAAAAAAM%2fFcxn6T_9rrU%2fw1200-h630-p-k-no-nu%2fDV00001.jpg&ehk=Apj66QhYTtIuIyZWlNLMzigWzT2Fb%2fv3ufCac4boVZo%3d&risl=&pid=ImgRaw&r=0')] bg-cover bg-center opacity-50 dark:opacity-30"
+          class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1457369804613-52c61a468e7d?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-40 dark:opacity-20"
+          aria-hidden="true"
         ></div>
 
         <!-- Content layer -->
         <div
-          class="relative w-full sm:w-10/12 md:w-8/12 lg:w-10/12 mx-auto text-black dark:text-white z-10"
+          class="relative w-full max-w-6xl mx-auto text-black dark:text-white z-10"
         >
           <div
-            class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6"
+            class="flex flex-col sm:flex-row items-center justify-center gap-6 mb-8"
           >
             <img
-              class="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 object-contain"
+              class="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36 object-contain"
               src="/logo.png"
-              alt="RUPP logo"
+              alt="Royal University of Phnom Penh logo"
+              loading="lazy"
             />
             <div class="text-center sm:text-left">
-              <p
-                class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl khmer-moul font-bold"
+              <h1
+                class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl khmer-moul font-bold tracking-tight"
               >
                 សាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ
-              </p>
+              </h1>
               <p
-                class="text-xl sm:text-2xl md:text-3xl lg:text-4xl eb-garamond font-bold mt-2"
+                class="text-xl sm:text-2xl md:text-3xl lg:text-4xl eb-garamond font-semibold mt-2"
               >
                 Royal University of Phnom Penh
               </p>
             </div>
           </div>
-          <hr class="border-t-2 border-gray-700 dark:border-gray-200 mt-4" />
-          <div class="mt-4 text-sm sm:text-base md:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sed
-            atque... Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Delectus eos expedita mollitia eaque ipsa hic libero perferendis
-            aliquam incidunt pariatur quis ratione rem, velit repellendus
-            facere, aut laborum repellat cupiditate? Cum nemo, quaerat esse quo
-            minus itaque voluptas aliquam molestias reprehenderit. Id atque
-            maxime eius ducimus, vero reiciendis labore, ut voluptatem
-            accusantium minus sapiente, ex facilis. Dolorum dolorem temporibus
-            numquam nesciunt cupiditate ea laborum consectetur voluptatibus
-            placeat libero officia minima, quos blanditiis, enim sunt
-            consequuntur necessitatibus culpa fugiat velit maiores corrupti
-            nihil explicabo adipisci! Eum, soluta reiciendis quaerat dolore,
-            voluptate quidem eveniet in perspiciatis expedita est eius
-            cupiditate illum necessitatibus?
-          </div>
-          <hr class="border-t-2 border-gray-700 dark:border-gray-200 mt-4" />
+          <hr class="border-t-2 border-gray-700 dark:border-gray-200 my-6" />
+          <p
+            class="text-base sm:text-lg md:text-xl max-w-4xl mx-auto leading-relaxed"
+          >
+            Established in 1960, the Royal University of Phnom Penh (RUPP) is
+            Cambodia's leading institution for higher education, fostering
+            academic excellence and research in diverse fields. Committed to
+            innovation and cultural preservation, RUPP prepares students to
+            contribute to global and local challenges with knowledge and
+            integrity.
+          </p>
+          <hr class="border-t-2 border-gray-700 dark:border-gray-200 my-6" />
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Main Content Section -->
-    <div class="max-w-4xl mx-auto px-4 py-12 text-center">
+    <!-- Welcome Section -->
+    <section
+      class="text-center py-16 px-4 sm:px-6 md:px-20 bg-gray-50 dark:bg-gray-800"
+    >
       <h1
-        class="text-4xl sm:text-5xl font-bold text-indigo-700 dark:text-indigo-400 mb-6"
+        class="text-4xl sm:text-5xl md:text-6xl font-bold text-blue-700 dark:text-blue-400 mb-6"
       >
-        Welcome to Number Theory & Cryptography 🔐
+        Welcome to Number Theory & Cryptography
       </h1>
-      <p class="text-lg sm:text-xl mb-8 leading-relaxed">
-        Explore the mathematical foundations and applications of number theory
-        in cryptography. Learn how prime numbers, modular arithmetic, and
-        algorithms secure digital communication.
+      <p
+        class="text-lg sm:text-xl max-w-3xl mx-auto text-gray-600 dark:text-gray-300 leading-relaxed"
+      >
+        Dive into the fascinating world of numbers and secure communication.
+        Discover how mathematical principles like prime numbers and modular
+        arithmetic power modern cryptographic systems.
       </p>
+      <p class="text-3xl sm:text-4xl font-semibold text-blue-600 dark:text-blue-400 mb-4">
+        Example of RSA Algorithm
+      </p>
+      <Carousel />
+    </section>
 
-      <div class="flex flex-col sm:flex-row justify-center gap-4">
+    <!-- About Number Theory -->
+    <section class="py-16 px-4 sm:px-6 md:px-20 bg-white dark:bg-gray-900">
+      <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2
+            class="text-3xl sm:text-4xl font-semibold text-blue-600 dark:text-blue-400 mb-4"
+          >
+            What is Number Theory?
+          </h2>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-base sm:text-lg leading-relaxed"
+          >
+            Number theory is the study of integers and their properties, forming
+            the backbone of many mathematical disciplines. Key concepts include:
+          </p>
+          <ul class="list-disc ml-6 mt-4 text-gray-700 dark:text-gray-300">
+            <li>Prime numbers and factorization</li>
+            <li>Modular arithmetic and congruences</li>
+            <li>
+              Greatest common divisors (GCD) and least common multiples (LCM)
+            </li>
+            <li>Euler’s theorem and Diophantine equations</li>
+          </ul>
+        </div>
+        <img
+          src="/src/assets/number.png"
+          alt="Illustration of number theory concepts"
+          class="rounded-lg shadow-md w-full h-auto"
+          loading="lazy"
+        />
+      </div>
+    </section>
+
+    <!-- About Cryptography -->
+    <section class="py-16 px-4 sm:px-6 md:px-20 bg-gray-50 dark:bg-gray-800">
+      <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <img
+          src="/src/assets/cryptography.png"
+          alt="Diagram of cryptographic encryption process"
+          class="rounded-lg shadow-md w-full h-auto"
+          loading="lazy"
+        />
+        <div>
+          <h2
+            class="text-3xl sm:text-4xl font-semibold text-blue-600 dark:text-blue-400 mb-4"
+          >
+            What is Cryptography?
+          </h2>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-base sm:text-lg leading-relaxed"
+          >
+            Cryptography secures communication through mathematical techniques,
+            ensuring data privacy and integrity. It includes:
+          </p>
+          <ul class="list-disc ml-6 mt-4 text-gray-700 dark:text-gray-300">
+            <li>Classical ciphers (e.g., Caesar, Vigenère)</li>
+            <li>Public-key cryptography (e.g., RSA, ECC)</li>
+            <li>Hash functions and digital signatures</li>
+            <li>Secure protocols for modern applications</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section
+      class="text-center py-16 px-4 sm:px-6 md:px-20 bg-white dark:bg-gray-900"
+    >
+      <h2
+        class="text-3xl sm:text-4xl font-bold text-blue-700 dark:text-blue-400 mb-6"
+      >
+        Start Your Journey
+      </h2>
+      <p
+        class="text-gray-600 dark:text-gray-300 max-w-xl mx-auto mb-8 text-base sm:text-lg"
+      >
+        Whether you're a beginner or an expert, explore the math behind secure
+        systems and unlock the power of cryptography.
+      </p>
+      <div class="flex justify-center flex-wrap gap-4">
         <router-link
-          to="/description"
-          class="px-6 py-3 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition-colors duration-300"
+          to="/number-theory"
+          class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg shadow-md transition-colors duration-300"
+          aria-label="Learn about number theory"
         >
-          Learn More
+          Learn Number Theory
         </router-link>
         <router-link
-          to="/demo"
-          class="px-6 py-3 bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-gray-200 rounded-xl hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-300"
+          to="/cryptography"
+          class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg shadow-md transition-colors duration-300"
+          aria-label="Explore cryptography"
         >
-          Try Demo
+          Explore Cryptography
+        </router-link>
+        <router-link
+          to="/demos"
+          class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg shadow-md transition-colors duration-300"
+          aria-label="Try interactive demos"
+        >
+          Try Demos
         </router-link>
       </div>
-    </div>
-
-    
+    </section>
   </main>
 </template>
+
+<script setup>
+  import Carousel from "../components/Carousel.vue";
+</script>

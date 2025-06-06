@@ -5,6 +5,7 @@ import Home from '../views/Home.vue'
 
 const routes = [
   { path: '/', component: Home },
+  { path: '/number-theory', component: () => import('../views/NumberTheory.vue') },
 //   { path: '/about', component: About }
 ]
 

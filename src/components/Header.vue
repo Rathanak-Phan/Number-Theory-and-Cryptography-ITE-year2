@@ -10,7 +10,7 @@
         <!-- Desktop Navigation -->
         <nav class="hidden md:flex space-x-6">
             <router-link to="/" class="text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">Home</router-link>
-            <router-link to="/description" class="text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">Description</router-link>
+            <router-link to="/description" class="text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">Concept</router-link>
             <router-link to="/demo" class="text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">Demo</router-link>
             <router-link to="/about" class="text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">About</router-link>
             <div class="items-center space-x-4 text-gray-700 dark:text-gray-300">
@@ -41,7 +41,7 @@
     <div v-if="isOpen" class="md:hidden px-4 pb-4 bg-white dark:bg-gray-900">
       <nav class="flex flex-col space-y-2">
         <router-link to="/" @click="closeMenu" class="text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">Home</router-link>
-        <router-link to="/description" @click="closeMenu" class="text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">Description</router-link>
+        <router-link to="/description" @click="closeMenu" class="text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">Concept</router-link>
         <router-link to="/demo" @click="closeMenu" class="text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">Demo</router-link>
         <router-link to="/about" @click="closeMenu" class="text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">About</router-link>
       </nav>
