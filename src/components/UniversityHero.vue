@@ -7,7 +7,7 @@
     >
       <!-- Background image layer -->
       <div
-        class="absolute inset-0 bg-[url('./src/assets/bg-rupp.png')] bg-cover bg-center opacity-40 dark:opacity-20"
+        class="absolute inset-0 bg-[url('/bg-rupp.png')] bg-cover bg-center opacity-40 dark:opacity-20"
         aria-hidden="true"
       ></div>
 
