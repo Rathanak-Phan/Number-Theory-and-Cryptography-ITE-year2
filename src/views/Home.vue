@@ -198,9 +198,51 @@
         </router-link>
       </div>
     </section>
+
+    <!-- Future of Number Theory in Cryptography -->
+    <section
+      class="py-16 px-4 sm:px-6 md:px-20 bg-gray-50 dark:bg-gray-800 duration-300 ease-in-out"
+    >
+      <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2
+            class="text-3xl sm:text-4xl font-semibold text-blue-600 dark:text-blue-400 mb-4"
+          >
+            Future of Number Theory in Cryptography
+          </h2>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-base sm:text-lg leading-relaxed"
+          >
+            The future of number theory in cryptography is promising, with
+            advancements in quantum computing and new cryptographic protocols. 
+            Key areas of focus include:
+          </p>
+          <ul class="list-disc ml-6 mt-4 text-gray-700 dark:text-gray-300">
+            <li>Quantum-resistant ciphers</li>
+            <li>Post-quantum cryptography</li>
+            <li>Privacy-enhancing technologies</li>
+            <li>Blockchain applications</li>
+          </ul>
+        </div>
+        <img
+          src="/src/assets/number.png"
+          alt="Image of future of number theory in cryptography"
+          class="rounded-lg shadow-md w-full h-auto"
+          loading="lazy"
+        />
+      </div>
+    </section>
   </main>
 </template>
 
-<script setup>
-import Carousel from "../components/Carousel.vue";
+<script>
+  import Carousel from "../components/Carousel.vue";
+
+  export default {
+    name: "Home",
+    mounted() {
+      document.title = "Home | Number Theory Fundamentals";
+    },
+  };
+
 </script>
