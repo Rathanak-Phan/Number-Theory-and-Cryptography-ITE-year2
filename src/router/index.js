@@ -7,7 +7,7 @@ const routes = [
   { path: '/number-theory', component: () => import('../views/NumberTheory.vue') },
   // { path: '/cryptography', component: () => import('../views/Cryptography.vue') },
   // { path: '/demos', component: () => import('../views/Demo.vue') },
-//   { path: '/about', component: About }
+  // { path: '/about', component: () => import('../views/About.vue') },
 ]
 
 const router = createRouter({
