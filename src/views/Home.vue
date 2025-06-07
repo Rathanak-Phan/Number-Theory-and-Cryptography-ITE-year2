@@ -3,7 +3,9 @@
     class="min-h-screen bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300 ease-in-out"
   >
     <!-- Header Section -->
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center duration-300 ease-in-out">
+    <section
+      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center duration-300 ease-in-out"
+    >
       <div
         class="relative w-full border-2 border-gray-300 dark:border-gray-700 rounded-2xl overflow-hidden py-8 sm:py-12 md:py-16 lg:py-20 shadow-lg"
       >
@@ -51,6 +53,16 @@
             integrity.
           </p>
           <hr class="border-t-2 border-gray-700 dark:border-gray-200 my-6" />
+          <p class="text-base text-gray-700 font-sans">
+            <strong class="text-red-500">Reference:</strong>
+            <a
+              href="https://www.geeksforgeeks.org/number-theory-used-in-cryptography/"
+              target="_blank"
+              class="text-blue-600 hover:text-blue-800 underline-offset-2 hover:underline transition-colors"
+            >
+              Number Theory used in Cryptography - GeeksforGeeks
+            </a>
+          </p>
         </div>
       </div>
     </section>
@@ -71,14 +83,18 @@
         Discover how mathematical principles like prime numbers and modular
         arithmetic power modern cryptographic systems.
       </p>
-      <p class="text-3xl sm:text-4xl font-semibold text-blue-600 dark:text-blue-400 mb-4">
+      <p
+        class="text-3xl sm:text-4xl font-semibold text-blue-600 dark:text-blue-400 mb-4"
+      >
         Example of RSA Algorithm
       </p>
       <Carousel />
     </section>
 
     <!-- About Number Theory -->
-    <section class="py-16 px-4 sm:px-6 md:px-20 bg-white dark:bg-gray-900 duration-300 ease-in-out">
+    <section
+      class="py-16 px-4 sm:px-6 md:px-20 bg-white dark:bg-gray-900 duration-300 ease-in-out"
+    >
       <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div>
           <h2
@@ -111,7 +127,9 @@
     </section>
 
     <!-- About Cryptography -->
-    <section class="py-16 px-4 sm:px-6 md:px-20 bg-gray-50 dark:bg-gray-800 duration-300 ease-in-out">
+    <section
+      class="py-16 px-4 sm:px-6 md:px-20 bg-gray-50 dark:bg-gray-800 duration-300 ease-in-out"
+    >
       <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <img
           src="/src/assets/cryptography.png"
@@ -184,5 +202,5 @@
 </template>
 
 <script setup>
-  import Carousel from "../components/Carousel.vue";
+import Carousel from "../components/Carousel.vue";
 </script>
