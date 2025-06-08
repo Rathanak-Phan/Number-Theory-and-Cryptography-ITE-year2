@@ -14,10 +14,10 @@ const routes = [
   { path: "/concepts", component: () => import("../views/Concepts.vue") },
   { path: "/demos", component: () => import("../views/Demo.vue") },
   { path: "/about", component: () => import("../views/About.vue") },
-  {
-    path: "/demos/:basePath/:hash",
-    component: () => import("../views/Result.vue"),
-  },
+  // {
+  //   path: "/demos/:basePath/:hash",
+  //   component: () => import("../views/Result.vue"),
+  // },
 ];
 
 const router = createRouter({
