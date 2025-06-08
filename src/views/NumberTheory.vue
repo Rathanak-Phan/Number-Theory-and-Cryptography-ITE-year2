@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300 ease-in-out">
-    <div class="bg-[#bdbdbd] text-gray-900 dark:bg-[#353535] dark:text-gray-100 min-h-screen max-w-6xl mx-auto p-8">
+    <div class="bg-[#bdbdbd] text-gray-900 dark:bg-[#353535] dark:text-gray-100 min-h-screen max-w-7xl mx-auto p-8">
       <h1 class="text-4xl text-center font-bold mb-8 text-blue-600 dark:text-blue-400">Number Theory Fundamentals</h1>
       
       <!-- Introduction Section -->

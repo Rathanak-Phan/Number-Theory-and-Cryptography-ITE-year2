@@ -1,15 +1,24 @@
 <script setup>
-import { Swiper, SwiperSlide } from 'swiper/vue';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+  import { Swiper, SwiperSlide } from 'swiper/vue';
+  import 'swiper/css';
+  import 'swiper/css/navigation';
+  import 'swiper/css/pagination';
+  import 'swiper/css/autoplay';
 
-import { Navigation, Pagination } from 'swiper/modules';
+  import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+
+  // Mark as used to avoid unused import errors
+  void Swiper;
+  void SwiperSlide;
+  void Navigation;
+  void Pagination;
+  void Autoplay;
 </script>
 
 <template>
   <Swiper
-    :modules="[Navigation, Pagination]"
+    :modules="[Navigation, Pagination, Autoplay]"
+    :autoplay="{ delay: 3000, disableOnInteraction: false }"
     navigation
     pagination
     loop
@@ -59,5 +68,3 @@ import { Navigation, Pagination } from 'swiper/modules';
     </SwiperSlide>
   </Swiper>
 </template>
-
-

@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300 ease-in-out">
-    <div class="bg-[#bdbdbd] text-gray-900 dark:bg-[#353535] dark:text-gray-100 min-h-screen max-w-6xl mx-auto p-8">
+    <div class="bg-[#bdbdbd] text-gray-900 dark:bg-[#353535] dark:text-gray-100 min-h-screen max-w-7xl mx-auto p-8">
       <h1 class="text-4xl text-center font-bold mb-8 text-blue-600 dark:text-blue-400">Number Theory in Cryptography</h1>
       
       <!-- Introduction Section -->
@@ -256,71 +256,6 @@
         </div>
       </section>
 
-      <!-- Interactive Demo Section -->
-      <section class="mb-12">
-        <h2 class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300">Interactive Number Theory Concepts</h2>
-        
-        <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-6">
-          <!-- Prime Number Checker -->
-          <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg p-6">
-            <h3 class="text-lg font-semibold mb-4 text-gray-800 dark:text-gray-300">Prime Number Checker</h3>
-            <div class="space-y-4">
-              <input 
-                v-model="primeInput" 
-                type="number" 
-                placeholder="Enter a number"
-                class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-              >
-              <button 
-                @click="checkPrime"
-                class="w-full bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-md transition-colors"
-              >
-                Check if Prime
-              </button>
-              <div v-if="primeResult" class="p-3 rounded-md" :class="primeResult.isPrime ? 'bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300' : 'bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300'">
-                {{ primeResult.message }}
-              </div>
-            </div>
-          </div>
-
-          <!-- Modular Arithmetic Calculator -->
-          <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg p-6">
-            <h3 class="text-lg font-semibold mb-4 text-gray-800 dark:text-gray-300">Modular Arithmetic Calculator</h3>
-            <div class="space-y-4">
-              <div class="grid grid-cols-3 gap-2">
-                <input 
-                  v-model="modA" 
-                  type="number" 
-                  placeholder="a"
-                  class="px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-                >
-                <input 
-                  v-model="modB" 
-                  type="number" 
-                  placeholder="b"
-                  class="px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-                >
-                <input 
-                  v-model="modN" 
-                  type="number" 
-                  placeholder="n"
-                  class="px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-                >
-              </div>
-              <button 
-                @click="calculateMod"
-                class="w-full bg-purple-500 hover:bg-purple-600 text-white font-medium py-2 px-4 rounded-md transition-colors"
-              >
-                Calculate a^b mod n
-              </button>
-              <div v-if="modResult" class="p-3 bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 rounded-md">
-                {{ modA }}^{{ modB }} mod {{ modN }} = {{ modResult }}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <!-- Conclusion Section -->
       <section class="mb-8">
         <h2 class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300">Conclusion</h2>
@@ -335,7 +270,7 @@
         </div>
       </section>
 
-            <!-- Navigation -->
+      <!-- Navigation -->
       <div class="flex justify-between items-center">
         <router-link
           to="/"
@@ -355,93 +290,11 @@
 </template>
 
 <script>
-import { ref } from 'vue'
 
 export default {
   name: 'Cryptography',
     mounted() {
         document.title = 'Cryptography | Number Theory Fundamentals'
     },
-  setup() {
-    // Prime number checker
-    const primeInput = ref('')
-    const primeResult = ref(null)
-    
-    // Modular arithmetic calculator
-    const modA = ref('')
-    const modB = ref('')
-    const modN = ref('')
-    const modResult = ref(null)
-    
-    const isPrime = (n) => {
-      if (n < 2) return false
-      if (n === 2) return true
-      if (n % 2 === 0) return false
-      
-      for (let i = 3; i * i <= n; i += 2) {
-        if (n % i === 0) return false
-      }
-      return true
-    }
-    
-    const checkPrime = () => {
-      const num = parseInt(primeInput.value)
-      if (isNaN(num)) {
-        primeResult.value = { isPrime: false, message: 'Please enter a valid number' }
-        return
-      }
-      
-      const prime = isPrime(num)
-      primeResult.value = {
-        isPrime: prime,
-        message: prime ? `${num} is a prime number!` : `${num} is not a prime number.`
-      }
-    }
-    
-    const modPow = (base, exp, mod) => {
-      if (mod === 1) return 0
-      let result = 1
-      base = base % mod
-      while (exp > 0) {
-        if (exp % 2 === 1) {
-          result = (result * base) % mod
-        }
-        exp = Math.floor(exp / 2)
-        base = (base * base) % mod
-      }
-      return result
-    }
-    
-    const calculateMod = () => {
-      const a = parseInt(modA.value)
-      const b = parseInt(modB.value)
-      const n = parseInt(modN.value)
-      
-      if (isNaN(a) || isNaN(b) || isNaN(n) || n <= 0) {
-        modResult.value = 'Please enter valid numbers (n must be positive)'
-        return
-      }
-      
-      modResult.value = modPow(a, b, n)
-    }
-    
-    return {
-      primeInput,
-      primeResult,
-      modA,
-      modB,
-      modN,
-      modResult,
-      checkPrime,
-      calculateMod
-    }
-  }
 }
 </script>
-
-<style scoped>
-/* Additional custom styles if needed */
-.transition-colors {
-  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
-}
-</style>

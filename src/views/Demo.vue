@@ -1,22 +1,34 @@
 <template>
-  <div class="mx-auto px-4 py-8 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300 ease-in-out">
+  <div
+    class="mx-auto px-4 py-8 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300 ease-in-out"
+  >
     <!-- Interactive Demo Section -->
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 duration-300 ease-in-out">
-      <h2 class="text-2xl md:text-3xl text-center font-semibold mb-6 text-indigo-600 dark:text-indigo-300">
+    <section
+      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 py-12 duration-300 ease-in-out"
+    >
+      <h2
+        class="text-2xl md:text-3xl text-center font-semibold mb-6 text-indigo-600 dark:text-indigo-300"
+      >
         Interactive Cryptography Demos
       </h2>
       <p class="text-gray-600 dark:text-gray-300 mb-6">
-        Explore number theory concepts used in cryptography, such as prime numbers, modular arithmetic, and ciphers.
+        Explore number theory concepts used in cryptography, such as prime
+        numbers, modular arithmetic, and ciphers.
       </p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <!-- Prime Number Checker -->
-        <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-6 shadow-sm">
-          <h3 class="text-lg md:text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
+        <div
+          class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-6 shadow-sm hover:shadow-md hover:scale-105 transition-transform duration-300 ease-in-out"
+        >
+          <h3
+            class="text-lg md:text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200"
+          >
             Prime Number Checker
           </h3>
           <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">
-            Checks if a number is prime, a key concept in RSA for generating secure keys.
+            Checks if a number is prime, a key concept in RSA for generating
+            secure keys.
           </p>
           <div class="space-y-4">
             <input
@@ -35,7 +47,11 @@
             <div
               v-if="primeResult"
               class="p-3 rounded-md text-sm"
-              :class="primeResult.isPrime ? 'bg-green-100 dark:bg-green-900/50 text-green-800 dark:text-green-300' : 'bg-red-100 dark:bg-red-900/50 text-red-800 dark:text-red-300'"
+              :class="
+                primeResult.isPrime
+                  ? 'bg-green-100 dark:bg-green-900/50 text-green-800 dark:text-green-300'
+                  : 'bg-red-100 dark:bg-red-900/50 text-red-800 dark:text-red-300'
+              "
             >
               {{ primeResult.message }}
             </div>
@@ -43,12 +59,17 @@
         </div>
 
         <!-- Modular Arithmetic Calculator -->
-        <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-6 shadow-sm">
-          <h3 class="text-lg md:text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
+        <div
+          class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-6 shadow-sm hover:shadow-md hover:scale-105 transition-transform duration-300 ease-in-out"
+        >
+          <h3
+            class="text-lg md:text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200"
+          >
             Modular Arithmetic Calculator
           </h3>
           <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">
-            Computes \( a^b \mod n \), used in RSA and Diffie-Hellman for secure computations.
+            Computes \( a^b \mod n \), used in RSA and Diffie-Hellman for secure
+            computations.
           </p>
           <div class="space-y-4">
             <div class="grid grid-cols-3 gap-2">
@@ -87,12 +108,17 @@
         </div>
 
         <!-- Caesar Cipher -->
-        <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-6 shadow-sm">
-          <h3 class="text-lg md:text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
+        <div
+          class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-6 shadow-sm hover:shadow-md hover:scale-105 transition-transform duration-300 ease-in-out"
+        >
+          <h3
+            class="text-lg md:text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200"
+          >
             Caesar Cipher
           </h3>
           <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">
-            A substitution cipher using modular arithmetic to shift letters, a basic encryption technique.
+            A substitution cipher using modular arithmetic to shift letters, a
+            basic encryption technique.
           </p>
           <div class="space-y-4">
             <input
@@ -133,12 +159,17 @@
         </div>
 
         <!-- Vigenère Cipher -->
-        <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-6 shadow-sm">
-          <h3 class="text-lg md:text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
+        <div
+          class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-6 shadow-sm hover:shadow-md hover:scale-105 transition-transform duration-300 ease-in-out"
+        >
+          <h3
+            class="text-lg md:text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200"
+          >
             Vigenère Cipher
           </h3>
           <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">
-            A polyalphabetic cipher using a key, more secure than Caesar cipher due to multiple shifts.
+            A polyalphabetic cipher using a key, more secure than Caesar cipher
+            due to multiple shifts.
           </p>
           <div class="space-y-4">
             <input
@@ -177,12 +208,17 @@
         </div>
 
         <!-- RSA Demo -->
-        <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-6 shadow-sm">
-          <h3 class="text-lg md:text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
+        <div
+          class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-6 shadow-sm hover:shadow-md hover:scale-105 transition-transform duration-300 ease-in-out"
+        >
+          <h3
+            class="text-lg md:text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200"
+          >
             RSA Encryption/Decryption
           </h3>
           <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">
-            Demonstrates RSA using small numbers, relying on modular exponentiation and prime numbers.
+            Demonstrates RSA using small numbers, relying on modular
+            exponentiation and prime numbers.
           </p>
           <div class="space-y-4">
             <input
@@ -217,12 +253,17 @@
         </div>
 
         <!-- Hash Function Demo -->
-        <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-6 shadow-sm">
-          <h3 class="text-lg md:text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
+        <div
+          class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-6 shadow-sm hover:shadow-md hover:scale-105 transition-transform duration-300 ease-in-out"
+        >
+          <h3
+            class="text-lg md:text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200"
+          >
             SHA-256 Hash Function
           </h3>
           <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">
-            Generates a fixed-length hash for data integrity, not reversible unlike encryption.
+            Generates a fixed-length hash for data integrity, not reversible
+            unlike encryption.
           </p>
           <div class="space-y-4">
             <input
@@ -249,70 +290,67 @@
     </section>
 
     <!-- apply for this website -->
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 duration-300 ease-in-out">
-      <h2 class="text-2xl md:text-3xl text-center font-semibold mb-6 text-indigo-600 dark:text-indigo-300">
+    <section
+      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 duration-300 ease-in-out"
+    >
+      <h2
+        class="text-2xl md:text-3xl text-center font-semibold mb-6 text-indigo-600 dark:text-indigo-300"
+      >
         Apply Number Theory in Cryptography(Hash Function)
       </h2>
       <p class="text-gray-600 dark:text-gray-300 mb-6">
-        Hash functions are essential for data integrity and security, ensuring that data has not been altered.
-        They convert input data of any size into a fixed-length string, making it difficult to reverse the process.
+        Hash functions are essential for data integrity and security, ensuring
+        that data has not been altered. They convert input data of any size into
+        a fixed-length string, making it difficult to reverse the process.
       </p>
       <!-- bnt navigation for other thing -->
-      <div class="flex justify-center">
-        <router-link
-          to="/demos/number-theory/{domain-naem}"
-          class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg shadow-md transition-colors duration-300"
-        >
-          Learn More About Number Theory
-        </router-link>
-        <router-link
-          to="/demos/cryptography/{domain-name}"
-          class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg shadow-md transition-colors duration-300 ml-4"
-        >
-          Explore Cryptography
-        </router-link>
-      </div>
+      <Apply />
     </section>
   </div>
 </template>
 
 <script>
+import Apply from "../components/Apply.vue";
+
 export default {
-  name: 'CryptoDemos',
+  name: "CryptoDemos",
+  components: {
+    Apply,
+  },
   mounted() {
-    document.title = 'Interactive Cryptography Demos | Number Theory';
+    document.title = "Interactive Cryptography Demos | Number Theory";
   },
 
   data() {
     return {
       // Prime Checker
-      primeInput: '',
+      primeInput: "",
       primeResult: null,
 
       // Modular Arithmetic
-      modA: '',
-      modB: '',
-      modN: '',
+      modA: "",
+      modB: "",
+      modN: "",
       modResult: null,
 
       // Caesar Cipher
-      caesarText: '',
-      caesarShift: '',
-      caesarResult: '',
+      caesarText: "",
+      caesarShift: "",
+      caesarResult: "",
 
       // Vigenère Cipher
-      vigenereText: '',
-      vigenereKey: '',
-      vigenereResult: '',
+      vigenereText: "",
+      vigenereKey: "",
+      vigenereResult: "",
 
       // RSA
-      rsaText: '',
+      rsaText: "",
       rsaEncrypted: null,
-      rsaResult: '',
+      rsaResult: "",
 
       // Hash Function
-      hashInput: '',
-      hashResult: ''
+      hashInput: "",
+      hashResult: "",
     };
   },
 
@@ -324,7 +362,7 @@ export default {
       if (isNaN(num) || num < 2) {
         this.primeResult = {
           isPrime: false,
-          message: 'Please enter a number ≥ 2.'
+          message: "Please enter a number ≥ 2.",
         };
         return;
       }
@@ -332,14 +370,14 @@ export default {
         if (num % i === 0) {
           this.primeResult = {
             isPrime: false,
-            message: `${num} is not prime (divisible by ${i}).`
+            message: `${num} is not prime (divisible by ${i}).`,
           };
           return;
         }
       }
       this.primeResult = {
         isPrime: true,
-        message: `${num} is a prime number.`
+        message: `${num} is a prime number.`,
       };
     },
 
@@ -350,14 +388,14 @@ export default {
       const b = parseInt(this.modB);
       const n = parseInt(this.modN);
       if (isNaN(a) || isNaN(b) || isNaN(n) || n <= 0) {
-        this.modResult = 'Please enter valid numbers (n > 0).';
+        this.modResult = "Please enter valid numbers (n > 0).";
         return;
       }
       try {
         const result = BigInt(a) ** BigInt(b) % BigInt(n);
         this.modResult = result.toString();
       } catch (e) {
-        this.modResult = 'Calculation error (numbers too large).';
+        this.modResult = "Calculation error (numbers too large).";
       }
     },
 
@@ -366,16 +404,18 @@ export default {
     encryptCaesar() {
       const shift = parseInt(this.caesarShift) % 26;
       if (isNaN(shift) || shift < 1 || shift > 25) {
-        this.caesarResult = 'Shift must be between 1 and 25.';
+        this.caesarResult = "Shift must be between 1 and 25.";
         return;
       }
       if (!this.caesarText) {
-        this.caesarResult = 'Please enter text to encrypt.';
+        this.caesarResult = "Please enter text to encrypt.";
         return;
       }
-      this.caesarResult = this.caesarText.replace(/[a-z]/gi, char => {
-        const base = char >= 'a' && char <= 'z' ? 97 : 65;
-        return String.fromCharCode(((char.charCodeAt(0) - base + shift) % 26) + base);
+      this.caesarResult = this.caesarText.replace(/[a-z]/gi, (char) => {
+        const base = char >= "a" && char <= "z" ? 97 : 65;
+        return String.fromCharCode(
+          ((char.charCodeAt(0) - base + shift) % 26) + base
+        );
       });
     },
 
@@ -384,16 +424,18 @@ export default {
     decryptCaesar() {
       const shift = parseInt(this.caesarShift) % 26;
       if (isNaN(shift) || shift < 1 || shift > 25) {
-        this.caesarResult = 'Shift must be between 1 and 25.';
+        this.caesarResult = "Shift must be between 1 and 25.";
         return;
       }
       if (!this.caesarText) {
-        this.caesarResult = 'Please enter text to decrypt.';
+        this.caesarResult = "Please enter text to decrypt.";
         return;
       }
-      this.caesarResult = this.caesarText.replace(/[a-z]/gi, char => {
-        const base = char >= 'a' && char <= 'z' ? 97 : 65;
-        return String.fromCharCode(((char.charCodeAt(0) - base - shift + 26) % 26) + base);
+      this.caesarResult = this.caesarText.replace(/[a-z]/gi, (char) => {
+        const base = char >= "a" && char <= "z" ? 97 : 65;
+        return String.fromCharCode(
+          ((char.charCodeAt(0) - base - shift + 26) % 26) + base
+        );
       });
     },
 
@@ -401,20 +443,22 @@ export default {
     // Uses a key to apply multiple Caesar shifts, improving security over a single shift.
     encryptVigenere() {
       const text = this.vigenereText.toUpperCase();
-      const key = this.vigenereKey.toUpperCase().replace(/[^A-Z]/g, '');
+      const key = this.vigenereKey.toUpperCase().replace(/[^A-Z]/g, "");
       if (!key) {
-        this.vigenereResult = 'Please enter a valid key (letters only).';
+        this.vigenereResult = "Please enter a valid key (letters only).";
         return;
       }
       if (!text) {
-        this.vigenereResult = 'Please enter text to encrypt.';
+        this.vigenereResult = "Please enter text to encrypt.";
         return;
       }
-      let result = '';
+      let result = "";
       for (let i = 0, j = 0; i < text.length; i++) {
         const c = text[i];
         if (c.match(/[A-Z]/)) {
-          const charCode = (c.charCodeAt(0) + key[j % key.length].charCodeAt(0) - 130) % 26 + 65;
+          const charCode =
+            ((c.charCodeAt(0) + key[j % key.length].charCodeAt(0) - 130) % 26) +
+            65;
           result += String.fromCharCode(charCode);
           j++;
         } else {
@@ -428,20 +472,22 @@ export default {
     // Reverses the Vigenère encryption process.
     decryptVigenere() {
       const text = this.vigenereText.toUpperCase();
-      const key = this.vigenereKey.toUpperCase().replace(/[^A-Z]/g, '');
+      const key = this.vigenereKey.toUpperCase().replace(/[^A-Z]/g, "");
       if (!key) {
-        this.vigenereResult = 'Please enter a valid key (letters only).';
+        this.vigenereResult = "Please enter a valid key (letters only).";
         return;
       }
       if (!text) {
-        this.vigenereResult = 'Please enter text to decrypt.';
+        this.vigenereResult = "Please enter text to decrypt.";
         return;
       }
-      let result = '';
+      let result = "";
       for (let i = 0, j = 0; i < text.length; i++) {
         const c = text[i];
         if (c.match(/[A-Z]/)) {
-          const charCode = (c.charCodeAt(0) - key[j % key.length].charCodeAt(0) + 26) % 26 + 65;
+          const charCode =
+            ((c.charCodeAt(0) - key[j % key.length].charCodeAt(0) + 26) % 26) +
+            65;
           result += String.fromCharCode(charCode);
           j++;
         } else {
@@ -458,7 +504,7 @@ export default {
       const e = 3; // Public exponent
       const n = 33; // Modulus (3*11)
       if (isNaN(text) || text < 1 || text >= n) {
-        this.rsaResult = 'Enter a number between 1 and 32.';
+        this.rsaResult = "Enter a number between 1 and 32.";
         return;
       }
       try {
@@ -466,7 +512,7 @@ export default {
         this.rsaEncrypted = encrypted;
         this.rsaResult = `Encrypted: ${encrypted}`;
       } catch (e) {
-        this.rsaResult = 'Encryption error.';
+        this.rsaResult = "Encryption error.";
       }
     },
 
@@ -476,14 +522,14 @@ export default {
       const d = 7; // Private exponent
       const n = 33; // Modulus
       if (this.rsaEncrypted === null) {
-        this.rsaResult = 'Encrypt a number first.';
+        this.rsaResult = "Encrypt a number first.";
         return;
       }
       try {
         const decrypted = BigInt(this.rsaEncrypted) ** BigInt(d) % BigInt(n);
         this.rsaResult = `Decrypted: ${decrypted}`;
       } catch (e) {
-        this.rsaResult = 'Decryption error.';
+        this.rsaResult = "Decryption error.";
       }
     },
 
@@ -491,20 +537,22 @@ export default {
     // Generates a cryptographic hash for data integrity, not reversible.
     async calculateHash() {
       if (!this.hashInput) {
-        this.hashResult = 'Please enter text to hash.';
+        this.hashResult = "Please enter text to hash.";
         return;
       }
       try {
         const encoder = new TextEncoder();
         const data = encoder.encode(this.hashInput);
-        const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+        const hashBuffer = await crypto.subtle.digest("SHA-256", data);
         const hashArray = Array.from(new Uint8Array(hashBuffer));
-        this.hashResult = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        this.hashResult = hashArray
+          .map((b) => b.toString(16).padStart(2, "0"))
+          .join("");
       } catch (e) {
-        this.hashResult = 'Hashing error.';
+        this.hashResult = "Hashing error.";
       }
-    }
-  }
+    },
+  },
 };
 </script>
 
