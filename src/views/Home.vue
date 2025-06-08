@@ -109,7 +109,9 @@
           <!-- Secure Online Transactions -->
           <div
             data-aos="zoom-in-right"
-            class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+            data-aos-delay="300"
+            data-aos-duration="500"
+            class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 transition-transform duration-300 border border-transparent hover:border-gray-300 dark:hover:border-gray-500 "
           >
             <div
               class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mb-4"
@@ -132,7 +134,9 @@
           <!-- Digital Identity Verification -->
           <div
             data-aos="zoom-in"
-            class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+            data-aos-delay="300"
+            data-aos-duration="500"
+            class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 transition-transform duration-300 border border-transparent hover:border-gray-300 dark:hover:border-gray-500"
           >
             <div
               class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mb-4"
@@ -155,7 +159,9 @@
           <!-- Secure Messaging -->
           <div
             data-aos="zoom-in-left"
-            class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+            data-aos-delay="300"
+            data-aos-duration="500"
+            class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 transition-transform duration-300 border border-transparent hover:border-gray-300 dark:hover:border-gray-500"
           >
             <div
               class="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center mb-4"
@@ -178,7 +184,9 @@
           <!-- Data Integrity -->
           <div
             data-aos="zoom-in-right"
-            class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+            data-aos-delay="300"
+            data-aos-duration="500"
+            class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 transition-transform duration-300 border border-transparent hover:border-gray-300 dark:hover:border-gray-500"
           >
             <div
               class="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center mb-4"
@@ -200,7 +208,9 @@
           <!-- Password Security -->
           <div
             data-aos="zoom-in"
-            class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+            data-aos-delay="300"
+            data-aos-duration="500"
+            class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 transition-transform duration-300 border border-transparent hover:border-gray-300 dark:hover:border-gray-500"
           >
             <div
               class="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center mb-4"
@@ -222,7 +232,9 @@
           <!-- Access Control -->
           <div
             data-aos="zoom-in-left"
-            class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+            data-aos-delay="300"
+            data-aos-duration="500"
+            class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 transition-transform duration-300 border border-transparent hover:border-gray-300 dark:hover:border-gray-500"
           >
             <div
               class="w-12 h-12 bg-indigo-500 rounded-full flex items-center justify-center mb-4"
@@ -547,7 +559,7 @@
               class="relative transition-transform duration-[3000ms] ease-in-out hover:-translate-y-3"
             >
               <div
-                class="w-96 h-96 mx-auto bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 rounded-3xl shadow-2xl flex items-center justify-center"
+                class="w-full max-w-md mx-auto aspect-square bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 rounded-3xl shadow-2xl flex items-center justify-center"
               >
                 <div class="text-white text-center p-8">
                   <div class="text-6xl mb-4">🔐</div>
@@ -560,10 +572,10 @@
 
               <!-- Decorative elements -->
               <div
-                class="absolute -top-4 -right-4 w-20 h-20 bg-yellow-400 rounded-full animate-pulse opacity-75"
+                class="absolute -top-4 -right-4 w-16 h-16 sm:w-20 sm:h-20 bg-yellow-400 rounded-full animate-pulse opacity-75"
               ></div>
               <div
-                class="absolute -bottom-4 -left-4 w-16 h-16 bg-green-400 rounded-full animate-bounce opacity-75"
+                class="absolute -bottom-4 -left-4 w-12 h-12 sm:w-16 sm:h-16 bg-green-400 rounded-full animate-bounce opacity-75"
               ></div>
             </div>
           </div>

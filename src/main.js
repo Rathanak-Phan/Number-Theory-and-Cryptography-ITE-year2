@@ -10,4 +10,9 @@ app.use(router)
 app.mount('#app')
 
 // Init AOS after mount
-AOS.init();
+AOS.init(
+    {
+        once: true, // Animation happens only once
+        easing: 'ease-in-out', // Smooth easing
+    }
+);
