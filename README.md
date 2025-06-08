@@ -1,74 +1,73 @@
 # 🔐 Number Theory and Cryptography
 
-This project/chapter explores how number theory forms the foundation of classical and modern cryptography. It covers private key and public key encryption, cryptographic protocols, and advanced techniques like homomorphic encryption. The concepts presented here are essential for understanding how secure communication, authentication, and data privacy are achieved in the digital world.
+An interactive web-based project that explores how number theory forms the foundation of classical and modern cryptography. Designed for students, educators, and enthusiasts, this site demonstrates core mathematical concepts and their real-world applications in securing digital communication.
 
 ---
 
-## 📚 Topics Covered
+## 🎯 Purpose & Vision
 
-### 🏛️ Classical Cryptography
-- **Shift Ciphers**: Replace each letter with another letter a fixed number of positions away in the alphabet.
-- **Private Key Encryption**: Same key is used for both encryption and decryption.
-- **Cryptanalysis**: Methods used to break classical ciphers without knowing the key.
-
-### 🔑 Public Key Cryptography
-- **RSA Cryptosystem**:
-  - Based on number theory and modular arithmetic.
-  - Uses a public key (modulus and exponent) to encrypt.
-  - Requires knowledge of large prime factors to decrypt.
-- **Asymmetric Encryption**: Encryption and decryption keys are different.
-
-### 🔄 Cryptographic Protocols
-- **Key Exchange**: Allow two parties to share a secret key securely.
-- **Digital Signatures**: Verify that a message comes from the stated sender and has not been altered.
-
-### ☁️ Homomorphic Encryption
-- **Encrypted Computation**: Run programs on encrypted data without decrypting it.
-- **Applications**: Secure cloud computing, privacy-preserving data processing.
+This site is built to make number theory and cryptography accessible and engaging through interactive tools and clear explanations. Whether you're a learner or a curious visitor, the goal is to help you understand the mathematical principles behind encryption and secure communication.
 
 ---
 
-## 🔢 Why Number Theory?
+## 📚 What You'll Learn
 
-Number theory provides:
-- **Modular arithmetic** for secure transformations.
-- **Prime numbers** as the basis for trapdoor functions.
-- **Mathematical hardness** that ensures cryptographic security.
-
----
-
-## 🛠️ Prerequisites
-
-To follow along or implement cryptographic algorithms:
-- Basic understanding of **modular arithmetic**.
-- Familiarity with **prime numbers**, **gcd**, and **Euler’s theorem**.
-- Programming knowledge in Python, C++, or another language (optional for implementation).
+- Basic number theory concepts
+- Prime numbers and their importance in security
+- Modular arithmetic and congruence
+- GCD, LCM, and the Euclidean algorithm
+- Cryptographic applications like:
+  - Shift ciphers
+  - RSA encryption
+  - Key exchange protocols
+  - Digital signatures
+  - Homomorphic encryption (introductory)
 
 ---
 
-## 📁 Repository Structure
+## 🛠️ Technologies Used
+
+### Frontend
+- ⚙️ [Vue.js](https://vuejs.org/) — Reactive component-based framework
+- 🎨 [Tailwind CSS](https://tailwindcss.com/) — Utility-first CSS for modern, responsive design
+
+---
+
+## ✨ Features
+
+- 🌙 Light/Dark theme toggle
+- 📱 Responsive layout (mobile + desktop)
+- 🧮 Interactive tools to explore:
+  - Shift Cipher
+  - RSA Encryption
+  - Key Exchange
+  - Digital Signature
+
+---
+
+## 📁 Project Structure
 
 ```
 number-theory-cryptography-vue/
 ├── public/
-│   └── index.html
+│ └── index.html
 ├── src/
-│   ├── assets/
-│   │   └── logo.png
-│   ├── components/
-│   │   ├── ShiftCipher.vue
-│   │   ├── RSADemo.vue
-│   │   ├── KeyExchange.vue
-│   │   └── DigitalSignature.vue
-│   ├── views/
-│   │   ├── HomeView.vue
-│   │   ├── ClassicalView.vue
-│   │   ├── PublicKeyView.vue
-│   │   └── ProtocolsView.vue
-│   ├── router/
-│   │   └── index.js
-│   ├── App.vue
-│   └── main.js
+│ ├── assets/
+│ │ └── logo.png
+│ ├── components/
+│ │ ├── ShiftCipher.vue
+│ │ ├── RSADemo.vue
+│ │ ├── KeyExchange.vue
+│ │ └── DigitalSignature.vue
+│ ├── views/
+│ │ ├── HomeView.vue
+│ │ ├── ClassicalView.vue
+│ │ ├── PublicKeyView.vue
+│ │ └── ProtocolsView.vue
+│ ├── router/
+│ │ └── index.js
+│ ├── App.vue
+│ └── main.js
 ├── .gitignore
 ├── README.md
 ├── package.json
@@ -77,24 +76,11 @@ number-theory-cryptography-vue/
 ```
 
 
-
-
 ---
 
-## 🧠 Author
+## 🚀 Getting Started
 
-**Rathanak Phan**  
-Student, Royal University of Phnom Penh  
-Major: Information Technology Engineering  
-📧 Email: _[rathanak.dev.kh@gmail.com]_  
-🌐 GitHub: [@Rathamak-Phan]([(https://github.com/Rathanak-Phan)]
-
----
-
-## 📄 License
-
-This project is licensed under the ITE License - see the [LICENSE](LICENSE) file for details.
-
-
-
-
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/Rathanak-Phan/number-theory-cryptography-vue.git
+   cd number-theory-cryptography-vue
