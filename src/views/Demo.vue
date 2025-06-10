@@ -42,6 +42,7 @@
       </h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <RSA />
+        <HashFunction />
       </div>
     </section>
 
@@ -59,29 +60,31 @@
 </template>
 
 <script>
-import Apply from "../components/Apply.vue";
-import CaesarCipher from "../components/Algorithm/CaesarCipher.vue";
-import PrimeNumberChecker from "../components/Algorithm/PrimeNumberChecker.vue";
-import ModularArithmetic from "../components/Algorithm/ModularArithmetic.vue";
-import VigenereCipher from "../components/Algorithm/VigenereCipher.vue";
-import HillCipher from "../components/Algorithm/HillCipher.vue";
-import AffineCipher from "../components/Algorithm/AffineCipher.vue";
-import RSA from "../components/Algorithm/RSA.vue";
+  import Apply from "../components/Apply.vue";
+  import CaesarCipher from "../components/Algorithm/CaesarCipher.vue";
+  import PrimeNumberChecker from "../components/Algorithm/PrimeNumberChecker.vue";
+  import ModularArithmetic from "../components/Algorithm/ModularArithmetic.vue";
+  import VigenereCipher from "../components/Algorithm/VigenereCipher.vue";
+  import HillCipher from "../components/Algorithm/HillCipher.vue";
+  import AffineCipher from "../components/Algorithm/AffineCipher.vue";
+  import RSA from "../components/Algorithm/RSA.vue";
+  import HashFunction from "../components/Algorithm/HashFunction.vue";
 
-export default {
-  name: "CryptoDemos",
-  components: {
-    Apply,
-    CaesarCipher,
-    PrimeNumberChecker,
-    ModularArithmetic,
-    VigenereCipher,
-    HillCipher,
-    AffineCipher,
-    RSA,
-  },
-  mounted() {
-    document.title = "Interactive Cryptography Demos | Number Theory";
-  },
-};
+  export default {
+    name: "CryptoDemos",
+    components: {
+      Apply,
+      CaesarCipher,
+      PrimeNumberChecker,
+      ModularArithmetic,
+      VigenereCipher,
+      HillCipher,
+      AffineCipher,
+      RSA,
+      HashFunction,
+    },
+    mounted() {
+      document.title = "Interactive Cryptography Demos | Number Theory";
+    },
+  };
 </script>

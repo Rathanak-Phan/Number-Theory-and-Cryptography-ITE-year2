@@ -12,26 +12,29 @@
         </router-link>
 
         <!-- Desktop Navigation -->
-        <nav
-          @click="scrollToTop" 
+        <nav 
           class="hidden md:flex space-x-6">
           <router-link
             to="/"
+            @click="scrollToTop"
             class="text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400"
             >Home</router-link
           >
           <router-link
             to="/concepts"
+            @click="scrollToTop"
             class="text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400"
             >Concept</router-link
           >
           <router-link
             to="/demos"
+            @click="scrollToTop"
             class="text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400"
             >Demo</router-link
           >
           <router-link
             to="/about"
+            @click="scrollToTop"
             class="text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400"
             >About</router-link
           >
