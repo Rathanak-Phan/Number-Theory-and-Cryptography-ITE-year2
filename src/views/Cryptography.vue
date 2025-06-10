@@ -508,12 +508,14 @@
       <div class="flex justify-between items-center">
         <router-link
           to="/"
+          @click="scrollToTop"
           class="inline-block px-6 py-3 bg-gray-500 hover:bg-gray-600 dark:bg-gray-600 dark:hover:bg-gray-700 rounded text-white shadow transition-colors duration-200"
         >
           ← Back to Home
         </router-link>
         <router-link
           to="/demos"
+            @click="scrollToTop"
           class="inline-block px-6 py-3 bg-blue-500 hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 rounded text-white shadow transition-colors duration-200"
         >
           Navigate to Demo →
@@ -528,6 +530,11 @@ export default {
   name: "Cryptography",
   mounted() {
     document.title = "Cryptography | Number Theory Fundamentals";
+  },
+  methods: {
+    scrollToTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    },
   },
 };
 </script>

@@ -5,13 +5,16 @@
         <!-- Logo / Brand -->
         <router-link
           to="/"
+          @click="scrollToTop"
           class="text-2xl font-bold text-indigo-700 dark:text-indigo-400"
         >
           Number
         </router-link>
 
         <!-- Desktop Navigation -->
-        <nav class="hidden md:flex space-x-6">
+        <nav
+          @click="scrollToTop" 
+          class="hidden md:flex space-x-6">
           <router-link
             to="/"
             class="text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400"
@@ -126,8 +129,10 @@ function toggleMenu() {
 function closeMenu() {
   isOpen.value = false;
 }
+
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
 </script>
 
-<style lang="css">
-/* Add your component-specific styles here if needed */
-</style>

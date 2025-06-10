@@ -416,6 +416,7 @@
       <div class="flex justify-center flex-wrap gap-4">
         <router-link
           to="/number-theory"
+          @click="scrollToTop"
           class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg shadow-md transition-colors duration-300 font-semibold"
           aria-label="Learn about number theory foundations"
         >
@@ -423,6 +424,7 @@
         </router-link>
         <router-link
           to="/cryptography"
+          @click="scrollToTop"
           class="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg shadow-md transition-colors duration-300 font-semibold"
           aria-label="Discover cryptographic applications"
         >
@@ -430,6 +432,7 @@
         </router-link>
         <router-link
           to="/demos"
+          @click="scrollToTop"
           class="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-lg shadow-md transition-colors duration-300 font-semibold"
           aria-label="Try interactive demonstrations"
         >
@@ -798,6 +801,14 @@ export default {
   mounted() {
     document.title =
       "Number Theory & Cryptography | Mathematical Foundations of Digital Security";
+  },
+  methods: {
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        // behavior: "smooth",
+      });
+    },
   },
 };
 </script>
