@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto px-4 py-8 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300 ease-in-out">
+  <div class="mx-auto px-0 md:px-4 py-8 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300 ease-in-out">
     
     <!-- Interactive Demo Section -->
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 py-12">
@@ -16,7 +16,7 @@
       <h2 class="text-2xl font-semibold text-indigo-600 dark:text-indigo-300 mb-4">
         Number Theory
       </h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 justify-between gap-6">
         <PrimeNumberChecker />
         <ModularArithmetic />
       </div>

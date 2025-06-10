@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-lg mx-auto bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 border rounded-2xl shadow-lg p-6 transition-all duration-300 hover:shadow-2xl">
+  <div class="max-w-xl mx-auto bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 border rounded-2xl shadow-lg p-6 transition-all duration-300 hover:shadow-2xl">
     <h2 class="text-2xl font-bold text-green-600 dark:text-green-400 mb-2">Prime Number Checker</h2>
 
     <div class="text-sm space-y-2 mb-4">
