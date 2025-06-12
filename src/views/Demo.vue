@@ -43,6 +43,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <RSA />
         <HashFunction />
+        <CRC />
       </div>
     </section>
 
@@ -69,6 +70,7 @@
   import AffineCipher from "../components/Algorithm/AffineCipher.vue";
   import RSA from "../components/Algorithm/RSA.vue";
   import HashFunction from "../components/Algorithm/HashFunction.vue";
+  import CRC from "../components/Algorithm/CRC.vue";
 
   export default {
     name: "CryptoDemos",
@@ -82,6 +84,7 @@
       AffineCipher,
       RSA,
       HashFunction,
+      CRC,
     },
     mounted() {
       document.title = "Interactive Cryptography Demos | Number Theory";
