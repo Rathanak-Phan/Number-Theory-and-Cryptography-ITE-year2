@@ -15,7 +15,7 @@
             target="_blank"
             rel="noopener"
             aria-label="Facebook"
-            class="rounded-full bg-white/10 hover:bg-blue-500 transition-colors duration-200 p-2 text-xl text-white hover:text-white shadow-md"
+            class="rounded-[100%] w-[50px] text-center bg-white/10 hover:bg-blue-500 transition-colors duration-200 p-2 text-xl text-white hover:text-white shadow-md"
           >
             <i class="fab fa-facebook-f"></i>
           </a>
@@ -24,7 +24,7 @@
             target="_blank"
             rel="noopener"
             aria-label="Twitter"
-            class="rounded-full bg-white/10 hover:bg-sky-400 transition-colors duration-200 p-2 text-xl text-white hover:text-white shadow-md"
+            class="rounded-[100%] w-[50px] text-center bg-white/10 hover:bg-sky-400 transition-colors duration-200 p-2 text-xl text-white hover:text-white shadow-md"
           >
             <i class="fab fa-twitter"></i>
           </a>
@@ -33,7 +33,7 @@
             target="_blank"
             rel="noopener"
             aria-label="Instagram"
-            class="rounded-full bg-white/10 hover:bg-pink-500 transition-colors duration-200 p-2 text-xl text-white hover:text-white shadow-md"
+            class="rounded-[100%] w-[50px] text-center bg-white/10 hover:bg-pink-500 transition-colors duration-200 p-2 text-xl text-white hover:text-white shadow-md"
           >
             <i class="fab fa-instagram"></i>
           </a>
@@ -42,7 +42,7 @@
             target="_blank"
             rel="noopener"
             aria-label="LinkedIn"
-            class="rounded-full bg-white/10 hover:bg-blue-700 transition-colors duration-200 p-2 text-xl text-white hover:text-white shadow-md"
+            class="rounded-[100%] w-[50px] text-center bg-white/10 hover:bg-blue-700 transition-colors duration-200 p-2 text-xl text-white hover:text-white shadow-md"
           >
             <i class="fab fa-linkedin-in"></i>
           </a>
