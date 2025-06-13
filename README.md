@@ -82,5 +82,5 @@ number-theory-cryptography-vue/
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/Rathanak-Phan/number-theory-cryptography-vue.git
-   cd number-theory-cryptography-vue
+   git clone https://github.com/Rathanak-Phan/Number-Theory-and-Cryptography-ITE-year2.git
+   cd Number-Theory-and-Cryptography-ITE-year2
