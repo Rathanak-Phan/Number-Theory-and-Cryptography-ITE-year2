@@ -8,12 +8,44 @@
           <p class="text-sm">© {{ currentYear }} Rathanak Phan. All rights reserved.</p>
         </div>
 
-        <!-- Right: Navigation Links -->
+        <!-- Right: Social Media Links -->
         <div class="flex space-x-4">
-          <router-link to="/" class="footer-link hover:underline">Home</router-link>
-          <router-link to="/description" class="footer-link hover:underline">Description</router-link>
-          <router-link to="/demo" class="footer-link hover:underline">Demo</router-link>
-          <router-link to="/about" class="footer-link hover:underline">About</router-link>
+          <a
+            href="https://facebook.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Facebook"
+            class="rounded-full bg-white/10 hover:bg-blue-500 transition-colors duration-200 p-2 text-xl text-white hover:text-white shadow-md"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Twitter"
+            class="rounded-full bg-white/10 hover:bg-sky-400 transition-colors duration-200 p-2 text-xl text-white hover:text-white shadow-md"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a
+            href="https://instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Instagram"
+            class="rounded-full bg-white/10 hover:bg-pink-500 transition-colors duration-200 p-2 text-xl text-white hover:text-white shadow-md"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://linkedin.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
+            class="rounded-full bg-white/10 hover:bg-blue-700 transition-colors duration-200 p-2 text-xl text-white hover:text-white shadow-md"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
         </div>
       </div>
     </div>

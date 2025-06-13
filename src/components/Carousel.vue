@@ -22,7 +22,7 @@
     navigation
     pagination
     loop
-    class="mySwiper rounded-lg shadow-lg max-w-5xl mx-auto mt-8"
+    class="mySwiper rounded-lg shadow-lg max-w-4xl mx-auto mt-8"
   >
     <SwiperSlide>
       <img
