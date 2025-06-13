@@ -3,12 +3,28 @@
     class="min-h-screen bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300 ease-in-out"
   >
     <!-- Header Section -->
-    <UniversityHero />
+    <!-- <UniversityHero /> -->
 
     <!-- Welcome Section -->
     <section
-      class="text-center py-16 px-4 sm:px-6 md:px-20 bg-gray-50 dark:bg-gray-800 duration-300 ease-in-out"
+      class="text-center py-16 px-4 sm:px-6 md:px-20 bg-none bg-gray-50 dark:bg-[#0F172A] duration-300 ease-in-out"
     >
+      <!-- Background Video -->
+      <video
+        autoplay
+        muted
+        loop
+        playsinline
+        class="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-70 dark:opacity-20"
+      >
+        <source
+          src="https://media.istockphoto.com/id/1027718724/video/handwritten-formulas-spinning-in-3d-space-on-a-bright-background.mp4?s=mp4-640x640-is&k=20&c=OZhq1lBjCn5IOD_h79W3NqOtVFgpP54Ia6_fT3y3mN0="
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+
+      <!-- Content Layer -->
       <div
         data-aos="fade-zoom-in"
         data-aos-easing="ease-in-back"
@@ -22,7 +38,7 @@
           Welcome to Number Theory & Cryptography
         </h1>
         <p
-          class="text-lg sm:text-xl max-w-4xl mx-auto text-gray-600 dark:text-gray-300 leading-relaxed mb-8"
+          class="text-lg sm:text-xl max-w-4xl mx-auto text-gray-100 dark:text-gray-300 leading-relaxed mb-8"
         >
           Explore the fascinating intersection where mathematical elegance meets
           digital security. Number theory, the mother of modern cryptography,
@@ -96,7 +112,7 @@
 
     <!-- Real-World Applications -->
     <section
-      class="py-16 px-4 sm:px-6 md:px-20 bg-gray-50 dark:bg-gray-800 duration-300 ease-in-out"
+      class="py-16 px-4 sm:px-6 md:px-20 bg-gray-50 dark:bg-gray-900 duration-300 ease-in-out"
     >
       <div class="max-w-7xl mx-auto">
         <h2
@@ -111,7 +127,7 @@
             data-aos="zoom-in-right"
             data-aos-delay="300"
             data-aos-duration="500"
-            class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 transition-transform duration-300 border border-transparent hover:border-gray-300 dark:hover:border-gray-500 "
+            class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 transition-transform duration-300 border border-transparent hover:border-gray-300 dark:hover:border-gray-500"
           >
             <div
               class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mb-4"
@@ -315,7 +331,7 @@
 
     <!-- Key Algorithms Section -->
     <section
-      class="py-16 px-4 sm:px-6 md:px-20 bg-gray-50 dark:bg-gray-800 duration-300 ease-in-out"
+      class="py-16 px-4 sm:px-6 md:px-20 bg-gray-50 dark:bg-gray-900 duration-300 ease-in-out"
     >
       <div class="max-w-7xl mx-auto">
         <h2
@@ -442,7 +458,7 @@
     </section>
 
     <!-- Future of Number Theory in Cryptography -->
-    <section class="py-20 px-4 sm:px-6 md:px-20 relative overflow-hidden">
+    <section class="py-20 px-4 sm:px-6 md:px-20 relative overflow-hidden rounded-tl-[10%] rounded-br-[10%]">
       <div
         class="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10 dark:from-blue-500/20 dark:to-purple-500/20"
       ></div>

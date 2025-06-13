@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-white dark:bg-gray-900 shadow-md sticky top-0 z-50">
+  <header class="bg-white dark:bg-gray-900 shadow-md sticky top-0 z-50 transition-colors duration-300 ease-in-out">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
       <div class="flex justify-between items-center h-16">
         <!-- Logo / Brand -->
