@@ -6,7 +6,7 @@
       class="bg-[#bdbdbd] text-gray-900 dark:bg-[#353535] dark:text-gray-100 min-h-screen max-w-7xl mx-auto p-8"
     >
       <h1
-        class="text-4xl text-center font-bold mb-8 text-blue-600 dark:text-blue-400"
+        class="text-4xl text-center font-bold mb-8 text-gray-800 dark:text-gray-50"
       >
         Number Theory Concepts in Cryptography
       </h1>
@@ -14,7 +14,7 @@
       <!-- Introduction Section -->
       <section class="mb-12">
         <h2
-          class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300"
+          class="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-100"
         >
           Foundation of Modern Security
         </h2>
@@ -59,7 +59,7 @@
       <!-- Prime Numbers in Cryptography Section -->
       <section class="mb-12">
         <h2
-          class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300"
+          class="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-100"
         >
           Prime Numbers: The Building Blocks
         </h2>
@@ -132,7 +132,7 @@
       <!-- Modular Arithmetic Section -->
       <section class="mb-12">
         <h2
-          class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300"
+          class="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-100"
         >
           Modular Arithmetic: Clock Mathematics
         </h2>
@@ -196,7 +196,7 @@
       <!-- Cryptographic Algorithms Section -->
       <section class="mb-12">
         <h2
-          class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300"
+          class="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-100"
         >
           Key Cryptographic Algorithms
         </h2>
@@ -345,7 +345,7 @@
       <!-- Hash Functions Section -->
       <section class="mb-12">
         <h2
-          class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300"
+          class="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-100"
         >
           Cryptographic Hash Functions
         </h2>
@@ -453,15 +453,15 @@
       </section>
 
       <!-- Practical Applications Section -->
-      <section class="mb-12">
+      <!-- <section class="mb-12">
         <h2
-          class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300"
+          class="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-100"
         >
           Real-World Applications
         </h2>
 
         <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
-          <!-- Secure Transactions -->
+          <!-- Secure Transactions 
           <div
             class="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/30 dark:to-emerald-900/30 border border-green-200 dark:border-green-700 rounded-lg p-6"
           >
@@ -505,7 +505,7 @@
             </div>
           </div>
 
-          <!-- Digital Identity -->
+          <!-- Digital Identity 
           <div
             class="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/30 dark:to-indigo-900/30 border border-blue-200 dark:border-blue-700 rounded-lg p-6"
           >
@@ -547,7 +547,7 @@
             </div>
           </div>
 
-          <!-- Secure Messaging -->
+          <!-- Secure Messaging 
           <div
             class="bg-gradient-to-br from-purple-50 to-pink-50 dark:from-purple-900/30 dark:to-pink-900/30 border border-purple-200 dark:border-purple-700 rounded-lg p-6"
           >
@@ -588,7 +588,7 @@
             </div>
           </div>
 
-          <!-- Password Security -->
+          <!-- Password Security 
           <div
             class="bg-gradient-to-br from-orange-50 to-red-50 dark:from-orange-900/30 dark:to-red-900/30 border border-orange-200 dark:border-orange-700 rounded-lg p-6"
           >
@@ -629,12 +629,12 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Conclusion Section -->
       <section class="mb-12">
         <h2
-          class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300"
+          class="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-100"
         >
           Conclusion
         </h2>

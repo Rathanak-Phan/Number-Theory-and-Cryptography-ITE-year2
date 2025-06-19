@@ -3,10 +3,10 @@
     class="min-h-screen bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300 ease-in-out"
   >
     <div
-      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 duration-300 ease-in-out"
+      class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 py-12 duration-300 ease-in-out"
     >
       <h1
-        class="text-4xl text-center font-bold mb-8 text-blue-600 dark:text-blue-400"
+        class="text-4xl text-center font-bold mb-8 text-gray-800 dark:text-gray-50"
       >
         About This Website
       </h1>
@@ -17,7 +17,7 @@
       <!-- Introduction -->
       <section class="mb-12">
         <h2
-          class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300"
+          class="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-100"
         >
           Purpose & Vision
         </h2>
@@ -51,7 +51,7 @@
       <!-- Technologies -->
       <section class="mb-12">
         <h2
-          class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300"
+          class="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-100"
         >
           Technologies Used
         </h2>
@@ -89,7 +89,7 @@
       <!-- Author Info -->
       <section class="mb-12">
         <h2
-          class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300"
+          class="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-100"
         >
           About the Creator
         </h2>

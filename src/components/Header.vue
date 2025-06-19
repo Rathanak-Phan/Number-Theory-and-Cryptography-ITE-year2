@@ -6,7 +6,7 @@
         <router-link
           to="/"
           @click="scrollToTop"
-          class="text-2xl font-bold text-indigo-700 dark:text-indigo-400"
+          class="text-2xl font-bold text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400"
         >
           Number
         </router-link>
