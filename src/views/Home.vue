@@ -21,7 +21,7 @@
           src="https://media.istockphoto.com/id/1027718724/video/handwritten-formulas-spinning-in-3d-space-on-a-bright-background.mp4?s=mp4-640x640-is&k=20&c=OZhq1lBjCn5IOD_h79W3NqOtVFgpP54Ia6_fT3y3mN0="
           type="video/mp4"
         />
-        Your browser does not support the video tag.
+        Your browser does not support the video tag. 
       </video>
 
       <!-- Content Layer -->

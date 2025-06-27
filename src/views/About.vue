@@ -119,7 +119,7 @@
       <!-- Closing -->
       <section class="text-center">
         <p class="text-gray-700 dark:text-gray-400">
-          Thank you for visiting. Stay curious, and keep exploring!
+          Thank you for visiting. Stay curious, and keep exploring! 
         </p>
       </section>
     </div>

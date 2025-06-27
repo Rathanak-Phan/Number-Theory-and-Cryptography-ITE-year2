@@ -5,7 +5,7 @@
         <!-- Left: Site Info -->
         <div class="mb-4 md:mb-0 text-center md:text-left">
           <h2 class="font-semibold text-lg">Number Theory & Cryptography</h2>
-          <p class="text-sm">© {{ currentYear }} Rathanak Phan. All rights reserved.</p>
+          <p class="text-sm">© {{ currentYear }} Rathanak Phan. All rights reserved. </p>
         </div>
 
         <!-- Right: Social Media Links -->

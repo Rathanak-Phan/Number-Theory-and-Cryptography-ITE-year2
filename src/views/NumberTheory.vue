@@ -18,7 +18,7 @@
               <li>Prime numbers and their properties</li>
               <li>Divisibility and factorization</li>
               <li>Modular arithmetic and congruences</li>
-              <li>Greatest Common Divisor (GCD) and Least Common Multiple (LCM)</li>
+              <li>Greatest Common Divisor (GCD) and Least Common Multiple (LCM) </li>
               <li>Diophantine equations</li>
               <li>Number-theoretic functions</li>
             </ul>

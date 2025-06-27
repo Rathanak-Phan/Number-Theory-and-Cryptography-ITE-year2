@@ -17,19 +17,19 @@
         />
         <div class="text-center sm:text-left">
           <p class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl khmer-moul font-bold">
-            សាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ
+            សាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ 
           </p>
           <p
             class="text-xl sm:text-2xl md:text-3xl lg:text-4xl eb-garamond font-bold mt-1 sm:mt-2"
           >
-            Royal University of Phnom Penh
+            Royal University of Phnom Penh 
           </p>
         </div>
       </div>
       <hr class="border-gray-300" />
       <div class="mt-4 sm:mt-5 md:mt-6 text-xs sm:text-sm md:text-base lg:text-lg">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sed
-        atque...
+        atque....
       </div>
       <hr class="border-gray-300 mt-4 sm:mt-5 md:mt-6" />
     </div>

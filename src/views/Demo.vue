@@ -4,7 +4,7 @@
     <!-- Interactive Demo Section -->
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 py-12">
       <h2 class="text-2xl md:text-3xl text-center font-semibold mb-6 text-indigo-600 dark:text-indigo-300">
-        Interactive Cryptography Demos
+        Interactive Cryptography Demos 
       </h2>
       <p class="text-center text-gray-600 dark:text-gray-300 mb-6">
         Explore number theory concepts used in cryptography, such as prime numbers, modular arithmetic, and classical/modern ciphers.

@@ -7,7 +7,7 @@
 
   import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-  // Mark as used to avoid unused import errors
+  // Mark as used to avoid unused import errors 
   void Swiper;
   void SwiperSlide;
   void Navigation;
