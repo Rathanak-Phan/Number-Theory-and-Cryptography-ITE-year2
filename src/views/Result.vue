@@ -14,7 +14,7 @@
 
     <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
       This option is for those who want to apply for Number Theory &
-      Cryptography.
+      Cryptography. 
     </p>
 
     <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">

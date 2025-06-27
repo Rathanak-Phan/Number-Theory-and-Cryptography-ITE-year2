@@ -8,7 +8,7 @@
       <h1
         class="text-4xl text-center font-bold mb-8 text-gray-800 dark:text-gray-50"
       >
-        Number Theory Concepts in Cryptography
+        Number Theory Concepts in Cryptography 
       </h1>
 
       <!-- Introduction Section -->

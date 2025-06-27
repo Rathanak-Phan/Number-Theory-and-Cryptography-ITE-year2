@@ -8,7 +8,7 @@
           @click="scrollToTop"
           class="text-2xl font-bold text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400"
         >
-          Number
+          Number 
         </router-link>
 
         <!-- Desktop Navigation -->

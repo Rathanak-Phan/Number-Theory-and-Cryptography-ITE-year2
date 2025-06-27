@@ -6,7 +6,7 @@
       <h1
         class="text-4xl text-center font-bold mb-8 ttext-gray-800 dark:text-gray-50"
       >
-        Number Theory in Cryptography
+        Number Theory in Cryptography 
       </h1>
 
       <!-- Introduction Section -->

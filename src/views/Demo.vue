@@ -4,6 +4,8 @@
   >
     <!-- Interactive Demo Section -->
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 py-12">
+      <h2 class="text-2xl md:text-3xl text-center font-semibold mb-6 text-indigo-600 dark:text-indigo-300">
+        Interactive Cryptography Demos 
       <h2
         class="text-2xl md:text-3xl text-center font-semibold mb-6 text-gray-800 dark:text-gray-50"
       >
