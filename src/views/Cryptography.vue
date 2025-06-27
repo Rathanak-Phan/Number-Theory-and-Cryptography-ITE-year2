@@ -1,12 +1,10 @@
 <template>
   <div
-    class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300 ease-in-out"
+    class="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300 ease-in-out"
   >
-    <div
-      class="bg-[#bdbdbd] text-gray-900 dark:bg-[#353535] dark:text-gray-100 min-h-screen max-w-7xl mx-auto p-8"
-    >
+    <div class="min-h-screen max-w-7xl mx-auto p-3">
       <h1
-        class="text-4xl text-center font-bold mb-8 text-blue-600 dark:text-blue-400"
+        class="text-4xl text-center font-bold mb-8 ttext-gray-800 dark:text-gray-50"
       >
         Number Theory in Cryptography 
       </h1>
@@ -14,7 +12,7 @@
       <!-- Introduction Section -->
       <section class="mb-12">
         <h2
-          class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300"
+          class="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-100"
         >
           The Mathematical Foundation of Digital Security
         </h2>
@@ -61,7 +59,7 @@
       <!-- RSA Cryptosystem Section -->
       <section class="mb-12">
         <h2
-          class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300"
+          class="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-100"
         >
           RSA Cryptosystem
         </h2>
@@ -157,7 +155,7 @@
       <!-- Applications of Number Theory Section -->
       <section class="mb-12">
         <h2
-          class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300"
+          class="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-100"
         >
           Applications of Number Theory in Computer Science
         </h2>
@@ -327,7 +325,7 @@
       <!-- Real-World Applications Section -->
       <section class="mb-12">
         <h2
-          class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300"
+          class="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-100"
         >
           Real-World Applications
         </h2>
@@ -479,7 +477,7 @@
       <!-- Conclusion Section -->
       <section class="mb-8">
         <h2
-          class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300"
+          class="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-100"
         >
           Conclusion
         </h2>
@@ -515,7 +513,7 @@
         </router-link>
         <router-link
           to="/demos"
-            @click="scrollToTop"
+          @click="scrollToTop"
           class="inline-block px-6 py-3 bg-blue-500 hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 rounded text-white shadow transition-colors duration-200"
         >
           Navigate to Demo →

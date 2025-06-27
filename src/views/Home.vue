@@ -15,7 +15,7 @@
         muted
         loop
         playsinline
-        class="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-70 dark:opacity-20"
+        class="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-85 dark:opacity-15"
       >
         <source
           src="https://media.istockphoto.com/id/1027718724/video/handwritten-formulas-spinning-in-3d-space-on-a-bright-background.mp4?s=mp4-640x640-is&k=20&c=OZhq1lBjCn5IOD_h79W3NqOtVFgpP54Ia6_fT3y3mN0="
@@ -33,23 +33,38 @@
         class="max-w-7xl mx-auto"
       >
         <h1
-          class="text-4xl sm:text-5xl md:text-6xl font-bold text-blue-700 dark:text-blue-400 mb-6"
+          class="text-4xl sm:text-5xl md:text-6xl font-bold text-white dark:text-blue-300 mb-6"
         >
           Welcome to Number Theory & Cryptography
         </h1>
         <p
-          class="text-lg sm:text-xl max-w-4xl mx-auto text-gray-100 dark:text-gray-300 leading-relaxed mb-8"
+          class="text-md md:text-xl sm:text-lg max-w-4xl mx-auto text-white dark:text-gray-300 leading-relaxed mb-8"
         >
           Explore the fascinating intersection where mathematical elegance meets
           digital security. Number theory, the mother of modern cryptography,
           provides the mathematical foundation that protects our digital world
           through secure communication, data privacy, and authentication
           systems.
+          <a
+            class="text-red-400 hover:underline hover:text-red-700 hover:opacity-100 duration-300 ease-in-out opacity-70"
+            href="https://www.geeksforgeeks.org/maths/number-theory-used-in-cryptography/"
+            target="blank"
+            >Learn More</a
+          >
         </p>
         <p
-          class="text-3xl sm:text-4xl font-semibold text-blue-600 dark:text-blue-400 mb-4"
+          class="text-2xl sm:text-3xl md:text-4xl font-semibold text-green-500 dark:text-blue-300 mb-4"
         >
-          Practical Applications of Mathematical Security
+          Example: About
+          <span class="text-red-400 hover:underline hover:text-red-700 hover:opacity-100"
+            ><a
+              cla4s="hover:underline hover:text-red-700 hover:opacity-100"
+              href="https://www.geeksforgeeks.org/computer-networks/rsa-algorithm-cryptography/"
+              target="_blank"
+              >RSA</a
+            ></span
+          >
+          Algorithm in Cryptography
         </p>
       </div>
       <Carousel data-aos="zoom-in" />
@@ -62,7 +77,7 @@
       <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div data-aos="fade-right">
           <h2
-            class="text-3xl sm:text-4xl font-semibold text-blue-600 dark:text-blue-400 mb-4"
+            class="text-3xl sm:text-4xl font-medium text-gray-800 dark:text-gray-50 mb-4"
           >
             Number Theory: The Foundation of Cryptography
           </h2>
@@ -74,6 +89,12 @@
             cryptographic algorithms that ensure data privacy, integrity, and
             authenticity in digital communications. Key mathematical concepts
             include:
+            <a
+              class="text-red-400 hover:underline hover:text-red-700 hover:opacity-100 duration-300 ease-in-out opacity-80"
+              href="https://www.geeksforgeeks.org/number-theory/"
+              target="blank"
+              >Learn More</a
+            >
           </p>
           <ul
             class="list-disc ml-6 mt-4 text-gray-700 dark:text-gray-300 space-y-2"
@@ -116,7 +137,7 @@
     >
       <div class="max-w-7xl mx-auto">
         <h2
-          class="text-3xl sm:text-4xl font-semibold text-blue-600 dark:text-blue-400 mb-12 text-center"
+          class="text-3xl sm:text-4xl font-semibold text-gray-800 dark:text-gray-50 mb-12 text-center"
         >
           Real-Life Applications of Number Theory in Cryptography
         </h2>
@@ -144,6 +165,12 @@
               to protect e-commerce transactions, keeping credit card
               information and personal details safe from unauthorized access
               during online purchases.
+              <a
+                class="text-red-400 hover:underline hover:text-red-700 hover:opacity-100 duration-300 ease-in-out opacity-80"
+                href="https://thelaw.institute/cyberspace-technology-and-social-issues/securing-online-transactions-encryption-protocols-best-practices/"
+                target="blank"
+                >Learn More</a
+              >
             </p>
           </div>
 
@@ -169,6 +196,12 @@
               number theory to verify digital identities, ensuring document
               authenticity and preventing tampering in electronic contracts and
               transactions.
+              <a
+                class="text-red-400 hover:underline hover:text-red-700 hover:opacity-100 duration-300 ease-in-out opacity-80"
+                href="https://www.wallstreetmojo.com/digital-identity-verification/"
+                target="blank"
+                >Learn More</a
+              >
             </p>
           </div>
 
@@ -194,6 +227,12 @@
               number theory-based algorithms to ensure private communication,
               protecting conversations from unauthorized access by third
               parties.
+              <a
+                class="text-red-400 hover:underline hover:text-red-700 hover:opacity-100 duration-300 ease-in-out opacity-80"
+                href="https://proprivacy.com/privacy-service/comparison/5-secure-private-messengers"
+                target="blank"
+                >Learn More</a
+              >
             </p>
           </div>
 
@@ -218,6 +257,12 @@
               Cryptographic hash functions based on number theory principles
               ensure data integrity in blockchain transactions, creating
               immutable records for cryptocurrencies like Bitcoin and Ethereum.
+              <a
+                class="text-red-400 hover:underline hover:text-red-700 hover:opacity-100 duration-300 ease-in-out opacity-80"
+                href="https://dataautomation.com/how-blockchain-technology-enhances-data-integrity/"
+                target="blank"
+                >Learn More</a
+              >
             </p>
           </div>
 
@@ -242,6 +287,12 @@
               Advanced password hashing algorithms like bcrypt and Argon2 use
               number theory concepts to protect against brute force attacks and
               secure user authentication systems across web platforms.
+              <a
+                class="text-red-400 hover:underline hover:text-red-700 hover:opacity-100 duration-300 ease-in-out opacity-80"
+                href="https://mellow-sorbet-fcba86.netlify.app/security/hashing.html?utm_source=chatgpt.com"
+                target="blank"
+                >Learn More</a
+              >
             </p>
           </div>
 
@@ -266,6 +317,12 @@
               Biometric systems and smart card authentication use number
               theory-based cryptography to secure physical and digital access to
               buildings, networks, and confidential information systems.
+              <a
+                class="text-red-400 hover:underline hover:text-red-700 hover:opacity-100 duration-300 ease-in-out opacity-80"
+                href="https://www.fortinet.com/resources/cyberglossary/access-control"
+                target="blank"
+                >Learn More</a
+              >
             </p>
           </div>
         </div>
@@ -280,7 +337,7 @@
         <!-- Text first on mobile, second on desktop -->
         <div data-aos="fade-up-left" class="order-1 md:order-1">
           <h2
-            class="text-3xl sm:text-4xl font-semibold text-blue-600 dark:text-blue-400 mb-4"
+            class="text-3xl sm:text-4xl font-semibold text-gray-800 dark:text-gray-50 mb-4"
           >
             Modern Cryptography in Practice
           </h2>
@@ -291,6 +348,12 @@
             mathematical techniques rooted in number theory. Modern
             cryptographic systems secure everything from online banking to
             government communications through:
+            <a
+              class="text-red-400 hover:underline hover:text-red-700 hover:opacity-100 duration-300 ease-in-out opacity-80"
+              href="https://www.geeksforgeeks.org/computer-networks/cryptography-and-its-types/"
+              target="blank"
+              >Learn More</a
+            >
           </p>
           <ul
             class="list-disc ml-6 mt-4 text-gray-700 dark:text-gray-300 space-y-2"
@@ -335,11 +398,12 @@
     >
       <div class="max-w-7xl mx-auto">
         <h2
-          class="text-3xl sm:text-4xl font-semibold text-blue-600 dark:text-blue-400 mb-12 text-center"
+          class="text-3xl sm:text-4xl font-semibold text-gray-800 dark:text-gray-50 mb-12 text-center"
         >
           Core Cryptographic Algorithms
         </h2>
         <div class="grid md:grid-cols-3 gap-8">
+          <!-- RSA Algorithm -->
           <div
             data-aos="flip-left"
             class="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-700 dark:to-gray-600 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
@@ -360,9 +424,16 @@
               Uses the mathematical difficulty of factoring large prime numbers
               to create secure public-key encryption, forming the backbone of
               internet security and digital signatures.
+              <a
+                class="text-red-400 hover:underline hover:text-red-700 hover:opacity-100 duration-300 ease-in-out opacity-80"
+                href="https://www.geeksforgeeks.org/computer-networks/rsa-algorithm-cryptography/"
+                target="blank"
+                >Learn More</a
+              >
             </p>
           </div>
 
+          <!-- Elliptic Curve Cryptography -->
           <div
             data-aos="zoom-in-up"
             class="bg-gradient-to-br from-purple-50 to-pink-100 dark:from-gray-700 dark:to-gray-600 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
@@ -383,9 +454,16 @@
               Leverages discrete logarithms on elliptic curves to provide
               equivalent security with smaller key sizes, making it perfect for
               mobile devices and IoT applications.
+              <a
+                class="text-red-400 hover:underline hover:text-red-700 hover:opacity-100 duration-300 ease-in-out opacity-80"
+                href="https://www.geeksforgeeks.org/ethical-hacking/blockchain-elliptic-curve-cryptography/"
+                target="blank"
+                >Learn More</a
+              >
             </p>
           </div>
 
+          <!-- Diffie-Hellman Key Exchange -->
           <div
             data-aos="flip-right"
             class="bg-gradient-to-br from-green-50 to-emerald-100 dark:from-gray-700 dark:to-gray-600 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
@@ -406,6 +484,12 @@
               Uses modular arithmetic and discrete logarithms to enable secure
               key exchange over insecure channels, fundamental to modern secure
               communication protocols.
+              <a
+                class="text-red-400 hover:underline hover:text-red-700 hover:opacity-100 duration-300 ease-in-out opacity-80"
+                href="https://www.geeksforgeeks.org/computer-networks/implementation-diffie-hellman-algorithm/"
+                target="blank"
+                >Learn More</a
+              >
             </p>
           </div>
         </div>
@@ -417,9 +501,9 @@
       class="text-center py-16 px-4 sm:px-6 md:px-20 bg-white dark:bg-gray-900 duration-300 ease-in-out"
     >
       <h2
-        class="text-3xl sm:text-4xl font-bold text-blue-700 dark:text-blue-400 mb-6"
+        class="text-3xl sm:text-4xl font-bold text-gray-800 dark:text-gray-50 mb-6"
       >
-        Start Your Journey into Mathematical Security
+        Start The Journey into Mathematical Security
       </h2>
       <p
         class="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-8 text-base sm:text-lg leading-relaxed"
@@ -458,7 +542,9 @@
     </section>
 
     <!-- Future of Number Theory in Cryptography -->
-    <section class="py-20 px-4 sm:px-6 md:px-20 relative overflow-hidden rounded-tl-[10%] rounded-br-[10%]">
+    <section
+      class="py-20 px-4 sm:px-6 md:px-20 relative overflow-hidden rounded-tl-[10%] rounded-br-[10%]"
+    >
       <div
         class="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10 dark:from-blue-500/20 dark:to-purple-500/20"
       ></div>
@@ -478,6 +564,12 @@
             mathematics and quantum mechanics, we are witnessing the emergence
             of new cryptographic paradigms that will define digital security for
             decades to come.
+            <a
+              class="text-red-400 hover:underline hover:text-red-700 hover:opacity-100 duration-300 ease-in-out opacity-80"
+              href="https://quantumcomputingreport.com/natos-quantum-safe-future-transition/"
+              target="blank"
+              >Learn More</a
+            >
           </p>
         </div>
         <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
@@ -611,6 +703,7 @@
           NIST Post-Quantum Cryptography Standards (2024)
         </h2>
         <div class="grid md:grid-cols-3 gap-8">
+          <!-- ML-KEM (FIPS 203) -->
           <div
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
@@ -626,6 +719,12 @@
               Module-Lattice-Based Key Encapsulation Mechanism derived from
               CRYSTALS-KYBER, providing quantum-resistant key exchange based on
               the mathematical complexity of lattice problems.
+              <a
+                class="text-red-300 hover:underline hover:text-red-400 hover:opacity-100 duration-300 ease-in-out opacity-80"
+                href="https://www.encryptionconsulting.com/overview-of-fips-203/"
+                target="blank"
+                >Learn More</a
+              >
             </p>
             <div class="bg-cyan-100 dark:bg-gray-600 p-3 rounded-lg">
               <span class="text-sm font-medium text-cyan-800 dark:text-cyan-300"
@@ -634,6 +733,7 @@
             </div>
           </div>
 
+          <!-- ML-DSA (FIPS 204) -->
           <div
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
@@ -649,6 +749,12 @@
               Module-Lattice-Based Digital Signature Algorithm from
               CRYSTALS-Dilithium, ensuring authentic digital signatures that
               remain secure against both classical and quantum attacks.
+              <a
+                class="text-red-300 hover:underline hover:text-red-400 hover:opacity-100 duration-300 ease-in-out opacity-80"
+                href="https://csrc.nist.gov/pubs/fips/204/ipd"
+                target="blank"
+                >Learn More</a
+              >
             </p>
             <div class="bg-violet-100 dark:bg-gray-600 p-3 rounded-lg">
               <span
@@ -658,6 +764,7 @@
             </div>
           </div>
 
+          <!-- SLH-DSA (FIPS 205) -->
           <div
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
@@ -673,6 +780,12 @@
               Stateless Hash-Based Digital Signature Algorithm derived from
               SPHINCS+, offering security based on the fundamental properties of
               cryptographic hash functions.
+              <a
+                class="text-red-300 hover:underline hover:text-red-400 hover:opacity-100 duration-300 ease-in-out opacity-80"
+                href="https://asecuritysite.com/signatures/fips205"
+                target="blank"
+                >Learn More</a
+              >
             </p>
             <div class="bg-amber-100 dark:bg-gray-600 p-3 rounded-lg">
               <span
